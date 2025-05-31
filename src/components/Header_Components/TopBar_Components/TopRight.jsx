@@ -1,0 +1,134 @@
+import { useState } from "react";
+import { IoIosArrowDown } from "react-icons/io";
+import { GrFacebookOption } from "react-icons/gr";
+import { FaTwitter } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+import { Link } from "react-router-dom";
+
+const TopRight = () => {
+
+    const countries = [
+        {country_name: "United Kingdom", language: 'English', code: 'GB', flag: 'https://flagcdn.com/16x12/gb.png', currency: 'GBP' },
+        {country_name: "United States", language: 'English', code: 'US', flag: 'https://flagcdn.com/16x12/us.png', currency: 'USD' },
+        {country_name: "Germany", language: 'German', code: 'DE', flag: 'https://flagcdn.com/16x12/de.png', currency: 'EUR' },
+        {country_name: "France", language: 'French', code: 'FR', flag: 'https://flagcdn.com/16x12/fr.png', currency: 'EUR' }
+      ]
+
+    const [selectedCurrency, setSelectedCurrency] = useState(countries[1]);
+    const [selectedLang, setSelectedLang] = useState(countries[0]);
+    const [isOpen, setIsOpen] = useState(false);
+    const [isOpen2, setIsOpen2] = useState(false);
+
+return (
+    <section className="flex items-center gap-x-[49px] text-[#303030] font-[Montserrat] text-sm font-normal leading-5">
+        <div className="currency">
+
+            {/* for backend  integration */}
+
+            <select
+                className="hidden" 
+                name="currency"
+                value={selectedCurrency.currency}
+                onChange={(e) => {
+                                const country = countries.find(c => c.currency === e.target.value);
+                                setSelectedCurrency(country)
+            }}>
+                {
+                    countries.map((country,i) => {
+                        return <option key={i} value={country.currency}>{country.currency}</option>
+                    })
+                }
+            </select>
+
+            {/* for backend  integration */}
+
+            {/* for Frontend  integration */}
+
+            <div className="flex items-center gap-x-2 cursor-pointer relative"
+            onClick={() => setIsOpen2(prev => !prev)}>
+                <h6>{selectedCurrency.currency}</h6>
+                <IoIosArrowDown />
+
+                {
+                isOpen2 && 
+                    <ul className="absolute w-[70px] top-7 left-0 shadow-xl rounded-md bg-white">
+                        {countries.map((country,index) => 
+                                            <li key={index}
+                                                className="flex items-center pl-2 pr-2 gap-x-2 mb-2 hover:bg-gray-300 cursor-pointer"
+                                                onClick={(e) => {
+                                                    setSelectedCurrency(country);
+                                                }}>
+                                                <img src={country.flag} alt="country-flag" />
+                                                <h6>{country.currency}</h6>
+                                            </li>)}
+                    </ul>
+                }
+            </div>
+
+            {/* for Frontend  integration */}
+
+
+        </div>
+        <div className="language w-[112px] relative after:content-[''] after:absolute after:w-px after:h-8 after:bg-[#BFBFBF] after:right-[-18px] after:top-1/2 after:-translate-y-1/2 before:content-[''] before:absolute before:w-px before:h-8 before:bg-[#BFBFBF] before:left-[-24px] before:top-1/2 before:-translate-y-1/2">
+
+            {/* for backend  integration */}
+
+            <select 
+                className="hidden"
+                name="currency"
+                value={selectedLang.language}
+                onChange={(e) => {
+                                const country = countries.find(c => c.code === e.target.value);
+                                setSelectedLang(country)
+            }}>
+                {
+                    countries.map((country,i) => {
+                        return <option key={i} value={country.code}>{country.language}</option>
+                    })
+                }
+            </select>
+
+            {/* for backend  integration */}
+
+
+            {/* for Frontend  integration */}
+
+            <div className="flex items-center gap-x-2 relative cursor-pointer"
+            onClick={() => {
+                setIsOpen(prev => !prev);
+            }}>
+                <div className="flex items-center gap-x-2">
+                    <img src={selectedLang.flag} alt="country-flag" />
+                    <h6>{selectedLang.language}</h6>
+                </div>
+                <IoIosArrowDown />
+
+                {
+                isOpen && 
+                    <ul className="absolute w-full top-7 left-0 shadow-xl rounded-md bg-white">
+                        {countries.map((country,index) => 
+                                            <li key={index}
+                                                className="flex items-center pl-2 pr-2 gap-x-2 mb-2 hover:bg-gray-300 cursor-pointer"
+                                                onClick={(e) => {
+                                                    setSelectedLang(country);
+                                                }}>
+                                                <img src={country.flag} alt="country-flag" />
+                                                <h6>{country.language}</h6>
+                                            </li>)}
+                    </ul>
+                }
+            </div>
+
+            {/* for Frontend  integration */}
+
+        </div>
+        <div className="media-links flex items-center gap-x-6">
+            <Link to='#' ><GrFacebookOption /></Link>
+            <Link to='#' ><FaTwitter /></Link>
+            <Link to='#' ><FaInstagram /></Link>
+        </div>
+    </section>
+  )
+}
+
+export default TopRight
