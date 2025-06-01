@@ -11,7 +11,7 @@ const MiddleBar = () => {
     <Container>
         <section className="py-8 flex items-center justify-between font-[Montserrat]">
             <div className="logo">
-                <img src="../../../public/images/logo.png" alt="logo" />
+                <img src="/images/logo.png" alt="logo" />
             </div>
             <div className="flex items-center">
                 <form 
@@ -25,14 +25,14 @@ const MiddleBar = () => {
                         />
                     <GoSearch className="absolute right-6 top-5 text-lg"/>
                 </form>
-                <div className="cart relative pl-[52px] mr-[90px] after:content-[''] after:absolute after:w-px after:h-8 after:bg-[#BFBFBF] after:right-[-45px] after:top-1/2 after:-translate-y-1/2">
+                <div className="cart relative pl-[52px] mr-[90px] after:content-[''] after:absolute after:w-px after:h-8 after:bg-[#BFBFBF] after:right-[-45px] after:top-1/2 after:-translate-y-1/2 -z-1">
                     <div className="cart-icon absolute left-0 top-2">
                         <CartIcon />
                     </div>
                     <p className="text-base font-normal text-[#303030] leading-6">Cart</p>
                     <span className="ext-base font-bold text-[#303030] leading-6">$ 150,00</span>
                 </div>
-                <div className="cart relative pl-[52px]">
+                <div className="cart relative pl-[52px] -z-1">
                     <div className="cart-icon absolute left-0 top-1.5">
                         <LiaUserSolid className="text-4xl"/>
                     </div>
