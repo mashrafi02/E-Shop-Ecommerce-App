@@ -1,8 +1,13 @@
-import React from 'react'
+import Container from "../Pagelayouts/Container";
+import FooterTop from "./Footer_Components/FooterTop";
+import FooterBottom from "./Footer_Components/FooterBottom";
 
 const Footer = () => {
   return (
-    <div></div>
+    <Container>
+        <FooterTop />
+        <FooterBottom />
+    </Container>
   )
 }
 

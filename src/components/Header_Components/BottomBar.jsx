@@ -5,7 +5,7 @@ import { IoIosArrowDown } from "react-icons/io";
 
 const BottomBar = () => {
   return (
-      <section className='bg-[#FF624C]'>
+      <section className='bg-[#FF624C] mb-8'>
           <Container>
               <section className="flex items-center justify-between font-[Montserrat] py-[26px] text-white font-bold leading-6 text-base">
                   <div className="flex items-center gap-x-[80px]">
