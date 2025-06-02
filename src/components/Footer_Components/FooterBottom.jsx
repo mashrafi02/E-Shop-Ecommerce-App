@@ -1,10 +1,91 @@
-import React from 'react'
+import { Link } from 'react-router-dom'
+import { FaPhoneAlt } from "react-icons/fa";
+import { IoIosMail } from "react-icons/io";
+import { ImLocation } from "react-icons/im";
 
 const FooterBottom = () => {
   return (
-    <div>
-        
-    </div>
+    <>
+      <section className='flex justify-between font-[Montserrat] text-[#303030] text-base font-normal leading-6 mb-[80px]'>
+        <div className='mr-[167px]'>
+            <div className="logo mb-[158px]">
+                <img src="/images/logo.png" alt="logo" />
+            </div>
+
+            <ul>
+                <li className='pl-8 relative mb-3'>
+                    <FaPhoneAlt className='text-xl absolute left-0 top-0 text-[#646464]'/>
+                    <Link to='tel:123456789'>+1 (555) 123-4567</Link>
+                </li>
+                <li className='pl-8 relative mb-3'>
+                    <IoIosMail className='text-xl absolute left-0 top-0 text-[#646464]'/>
+                    <Link to='mailto:information@eshop.com'>information@eshop.com</Link>
+                </li>
+                <li className='pl-8 relative mb-3'>
+                    <ImLocation className='text-xl absolute left-0 top-0 text-[#646464]'/>
+                    <Link to='https://maps.app.goo.gl/jC8wKByXR5RisGeK7' target='_blank'>123 Main Street, Suite 105, Anytown USA</Link>
+                </li>
+            </ul>
+        </div>
+        <div className='flex'>
+            <div className='mr-[96px]'>
+                <h4 className='font-[Poppins] text-xl font-semibold leading-[30px] mb-6'>Links</h4>
+                <ul className='flex flex-col gap-y-3'>
+                    <li><Link to="/product-lists">Products List</Link></li>
+                    <li><Link to="#">Order Tracking</Link></li>
+                    <li><Link to="#">Products Guide</Link></li>
+                    <li><Link to="#">Shopping Cart</Link></li>
+                    <li><Link to="#">Tech Blog</Link></li>
+                </ul>
+            </div>
+            <div className='mr-[96px]'>
+                <h4 className='font-[Poppins] text-xl font-semibold leading-[30px] mb-6'>Supports</h4>
+                <ul className='flex flex-col gap-y-3'>
+                    <li><Link to="#">About Us</Link></li>
+                    <li><Link to="#">Privacy Policy</Link></li>
+                    <li><Link to="#">Return Policy</Link></li>
+                    <li><Link to="#">Help Centre</Link></li>
+                    <li><Link to="#">Store Locations</Link></li>
+                    <li><Link to="#">Careers</Link></li>
+                </ul>
+            </div>
+            <div className='mr-[80px]'>
+                <h4 className='font-[Poppins] text-xl font-semibold leading-[30px] mb-6'>Categories</h4>
+                <ul className='flex flex-col gap-y-3'>
+                    <li><Link to="#">Computers & Tablets</Link></li>
+                    <li><Link to="#">Mobile Phones & Accessories</Link></li>
+                    <li><Link to="#">TV & Home Theater</Link></li>
+                    <li><Link to="#">Audio & Headphones</Link></li>
+                    <li><Link to="#">Cameras & Camcorders</Link></li>
+                    <li><Link to="#">Gaming Equipment</Link></li>
+                    <li><Link to="#">Home Appliances</Link></li>
+                </ul>
+            </div>
+            <div>
+                <div className="top mb-[73px]">
+                    <h4 className='font-[Poppins] text-xl font-semibold leading-[30px] mb-6'>Payments</h4>
+                    <img src="/images/payments.png" alt="payment-methods" />
+                </div>
+                <div className="bottom">
+                    <h4 className='font-[Poppins] text-xl font-semibold leading-[30px] mb-6'>Follow Us</h4>
+                    <ul className='flex flex-col gap-y-3'>
+                        <li><Link to="#">Twitter</Link></li>
+                        <li><Link to="#">Instagram</Link></li>
+                        <li><Link to="#">Facebook</Link></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section className='flex justify-between border-t border-[#BFBFBF] mb-[80px] pt-2 font-[Montserrat] text-[#303030] text-[14px] font-normal leading-5 opacity-75'>
+        <span>Copyright © 2023 E-Shop. All Rights Reserved.</span>
+        <span>
+            <Link to="#" className='mr-2'>Privacy Policy</Link>  |  
+            <Link to="#" className='mr-2 ml-2'>Terms & Condition</Link>  |  
+            <Link to="#" className=' ml-2'>Sitemap</Link>
+        </span>
+    </section>
+    </>
   )
 }
 
