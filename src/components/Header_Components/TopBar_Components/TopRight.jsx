@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useRef, useEffect } from "react";
 import { IoIosArrowDown } from "react-icons/io";
 import { GrFacebookOption } from "react-icons/gr";
 import { FaTwitter } from "react-icons/fa";
@@ -18,6 +18,20 @@ const TopRight = () => {
     const [selectedLang, setSelectedLang] = useState(countries[0]);
     const [isOpen, setIsOpen] = useState(false);
     const [isOpen2, setIsOpen2] = useState(false);
+    const dropDownCurrency = useRef(null);
+    const dropDownLanguage = useRef(null);
+
+    useEffect(()=>{
+        function handleClickOutside(e){
+            if(dropDownCurrency.current && !dropDownCurrency.current.contains(e.target)){
+                setIsOpen2(prev => prev = false)
+            }
+            if(dropDownLanguage.current && !dropDownLanguage.current.contains(e.target)){
+                setIsOpen(prev => prev = false)
+            }
+        }
+        document.addEventListener("mousedown", handleClickOutside)
+    },[isOpen,isOpen2])
 
 return (
     <section className="flex items-center gap-x-[49px] text-[#303030] font-[Montserrat] text-sm font-normal leading-5">
@@ -44,7 +58,7 @@ return (
 
             {/* for Frontend  integration */}
 
-            <div className="flex items-center gap-x-2 cursor-pointer relative"
+            <div ref={dropDownCurrency} className="flex items-center gap-x-2 cursor-pointer relative"
             onClick={() => setIsOpen2(prev => !prev)}>
                 <h6>{selectedCurrency.currency}</h6>
                 <IoIosArrowDown />
@@ -93,7 +107,7 @@ return (
 
             {/* for Frontend  integration */}
 
-            <div className="flex items-center gap-x-2 relative cursor-pointer"
+            <div ref={dropDownLanguage} className="flex items-center gap-x-2 relative cursor-pointer"
             onClick={() => {
                 setIsOpen(prev => !prev);
             }}>
