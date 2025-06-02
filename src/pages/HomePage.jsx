@@ -1,8 +1,13 @@
-import React from 'react'
+import Container from "../Pagelayouts/Container"
+import Banner from "../components/HomePage_Components/Banner"
+import Facility from "../components/HomePage_Components/Facility"
 
 const HomePage = () => {
   return (
-    <div></div>
+    <Container>
+        <Banner />
+        <Facility />
+    </Container>
   )
 }
 
