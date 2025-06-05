@@ -1,1 +1,9 @@
 @import "tailwindcss";
+
+.slick-list{
+  margin: 0 40px !important;
+}
+
+.slick-track {
+  left: 2.5px !important;
+}
