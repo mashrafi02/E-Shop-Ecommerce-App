@@ -5,11 +5,12 @@ import { GoShareAndroid } from "react-icons/go";
 import CartIcon2 from "../assets/svg_icons/CartIcon2";
 
 const ProductComponent = ({maxWidth="284px",
+                          image="/images/product-placeholder.png",
                           text="", 
                           title="", 
                           bg="transparent", 
                           border=true, 
-                          p="24px", 
+                          p="24px 24px 44px 24px", 
                           discount="",
                           diswidth="75px",
                           disheight="37px",
@@ -22,7 +23,7 @@ const ProductComponent = ({maxWidth="284px",
                           price="0", 
                           preprice="" }) => {
   
-  const hoverBorder = 'hover:border-[#979797]'
+  const hoverBorder = 'hover:border-[#BFBFBF]'
   let ratingNumberArray;
   if(starRating){
     ratingNumberArray = new Array(starRating).fill("");
@@ -35,7 +36,7 @@ const ProductComponent = ({maxWidth="284px",
             background:bg,
           }}>
         <div className="image mb-10 w-full relative">
-            <img className='w-full' src="/images/watch.png" alt="item-image" />
+            <img className='w-full' src={image} alt="item-image" />
             {
               discount &&
                   <div className="discount absolute z-999 -top-4 -right-4">
