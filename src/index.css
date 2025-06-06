@@ -1,9 +1,25 @@
 @import "tailwindcss";
 
-.slick-list{
+.featured-products .slick-list{
   margin: 0 40px !important;
 }
 
-.slick-track {
+.featured-products .slick-track {
   left: 2.5px !important;
+}
+
+.spring-sale .slick-list{
+  margin: 0 12px !important;
+}
+
+.spring-sale .slick-track {
+  left: 12px !important;
+}
+
+.spring-sale .slick-next::before{
+  color: transparent !important;
+}
+
+.spring-sale .slick-prev{
+  display: none !important;
 }

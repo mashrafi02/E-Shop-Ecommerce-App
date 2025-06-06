@@ -78,18 +78,20 @@ const FeaturedProductsSlider = () => {
                     </span>
                 </Link>
             </div>
-            <Slider {...settings}>
-                <ProductComponent image={"/images/watch.png"} title={"PHONE"} text={"JPhone 13 High Quality Value Buy Best Cam..."} rating={"50"} starRating={5} price={"999.00"}/>
-                <ProductComponent image={"/images/watch.png"} title={"AUDIO"} text={"WH-1000XM4 Wireless Headphones High Qu..."} rating={"120"} starRating={5} price={"59.00"} preprice={"118.00"} discount={"50"}/>
-                <ProductComponent image={"/images/watch.png"} title={"LAPTOP"} text={"S21 Laptop Ultra HD LED Screen Feature 2023 ..."} rating={"100"} starRating={5} price={"1199.00"}/>
-                <ProductComponent image={"/images/watch.png"} title={"CAMERA"} text={"Mini Polaroid Camera for Girls with Flash Li..."} rating={"70"} starRating={5} price={"79.00"}/>
-                <ProductComponent image={"/images/watch.png"} title={"TELEVISION"} text={"AG OLED65CXPUA 4K Smart OLED TV New ..."} rating={"20"} starRating={5} price={"2799.00"}/>
-                <ProductComponent image={"/images/watch.png"} title={"PHONE"} text={"JPhone 13 High Quality Value Buy Best Cam..."} rating={"50"} starRating={5} price={"999.00"}/>
-                <ProductComponent image={"/images/watch.png"} title={"AUDIO"} text={"WH-1000XM4 Wireless Headphones High Qu..."} rating={"120"} starRating={5} price={"59.00"}/>
-                <ProductComponent image={"/images/watch.png"} title={"LAPTOP"} text={"S21 Laptop Ultra HD LED Screen Feature 2023 ..."} rating={"100"} starRating={5} price={"1199.00"}/>
-                <ProductComponent image={"/images/watch.png"} title={"CAMERA"} text={"Mini Polaroid Camera for Girls with Flash Li..."} rating={"70"} starRating={5} price={"79.00"} preprice={"118.00"} discount={"50"}/>
-                <ProductComponent image={"/images/watch.png"} title={"TELEVISION"} text={"AG OLED65CXPUA 4K Smart OLED TV New ..."} rating={"20"} starRating={5} price={"2799.00"}/>
-            </Slider>
+            <div className='min-w-0 featured-products'>
+                <Slider {...settings}>
+                    <ProductComponent image={"/images/watch.png"} title={"PHONE"} text={"JPhone 13 High Quality Value Buy Best Cam..."} rating={"50"} starRating={5} price={"999.00"}/>
+                    <ProductComponent image={"/images/watch.png"} title={"AUDIO"} text={"WH-1000XM4 Wireless Headphones High Qu..."} rating={"120"} starRating={5} price={"59.00"} preprice={"118.00"} discount={"50"}/>
+                    <ProductComponent image={"/images/watch.png"} title={"LAPTOP"} text={"S21 Laptop Ultra HD LED Screen Feature 2023 ..."} rating={"100"} starRating={5} price={"1199.00"}/>
+                    <ProductComponent image={"/images/watch.png"} title={"CAMERA"} text={"Mini Polaroid Camera for Girls with Flash Li..."} rating={"70"} starRating={5} price={"79.00"}/>
+                    <ProductComponent image={"/images/watch.png"} title={"TELEVISION"} text={"AG OLED65CXPUA 4K Smart OLED TV New ..."} rating={"20"} starRating={5} price={"2799.00"}/>
+                    <ProductComponent image={"/images/watch.png"} title={"PHONE"} text={"JPhone 13 High Quality Value Buy Best Cam..."} rating={"50"} starRating={5} price={"999.00"}/>
+                    <ProductComponent image={"/images/watch.png"} title={"AUDIO"} text={"WH-1000XM4 Wireless Headphones High Qu..."} rating={"120"} starRating={5} price={"59.00"}/>
+                    <ProductComponent image={"/images/watch.png"} title={"LAPTOP"} text={"S21 Laptop Ultra HD LED Screen Feature 2023 ..."} rating={"100"} starRating={5} price={"1199.00"}/>
+                    <ProductComponent image={"/images/watch.png"} title={"CAMERA"} text={"Mini Polaroid Camera for Girls with Flash Li..."} rating={"70"} starRating={5} price={"79.00"} preprice={"118.00"} discount={"50"}/>
+                    <ProductComponent image={"/images/watch.png"} title={"TELEVISION"} text={"AG OLED65CXPUA 4K Smart OLED TV New ..."} rating={"20"} starRating={5} price={"2799.00"}/>
+                </Slider>
+            </div>
         </section>
     </Container>
   )

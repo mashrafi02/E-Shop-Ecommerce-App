@@ -5,6 +5,7 @@ import FAQ from "../components/HomePage_Components/FAQ"
 import FeaturedProductsSlider from "../components/HomePage_Components/FeaturedProductsSlider"
 import NewProducts from "../components/HomePage_Components/NewProducts"
 import Offer from "../components/HomePage_Components/Offer"
+import SpringSale from "../components/HomePage_Components/SpringSale"
 
 const HomePage = () => {
   return (
@@ -14,6 +15,7 @@ const HomePage = () => {
       <FeaturedProductsSlider />
       <Offer />
       <NewProducts />
+      <SpringSale />
       <BestSeller />
       <FAQ />
     </>
