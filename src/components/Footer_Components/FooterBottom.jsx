@@ -31,34 +31,34 @@ const FooterBottom = () => {
             <div className='mr-[96px]'>
                 <h4 className='font-[Poppins] text-xl font-semibold leading-[30px] mb-6'>Links</h4>
                 <ul className='flex flex-col gap-y-3'>
-                    <li><Link to="/product-lists">Products List</Link></li>
-                    <li><Link to="#">Order Tracking</Link></li>
-                    <li><Link to="#">Products Guide</Link></li>
-                    <li><Link to="#">Shopping Cart</Link></li>
-                    <li><Link to="#">Tech Blog</Link></li>
+                    <li className='hover:text-[#FF624C] duration-200'><Link to="/product-lists">Products List</Link></li>
+                    <li className='hover:text-[#FF624C] duration-200'><Link to="#">Order Tracking</Link></li>
+                    <li className='hover:text-[#FF624C] duration-200'><Link to="#">Products Guide</Link></li>
+                    <li className='hover:text-[#FF624C] duration-200'><Link to="#">Shopping Cart</Link></li>
+                    <li className='hover:text-[#FF624C] duration-200'><Link to="#">Tech Blog</Link></li>
                 </ul>
             </div>
             <div className='mr-[96px]'>
                 <h4 className='font-[Poppins] text-xl font-semibold leading-[30px] mb-6'>Supports</h4>
                 <ul className='flex flex-col gap-y-3'>
-                    <li><Link to="#">About Us</Link></li>
-                    <li><Link to="#">Privacy Policy</Link></li>
-                    <li><Link to="#">Return Policy</Link></li>
-                    <li><Link to="#">Help Centre</Link></li>
-                    <li><Link to="#">Store Locations</Link></li>
-                    <li><Link to="#">Careers</Link></li>
+                    <li className='hover:text-[#FF624C] duration-200'><Link to="#">About Us</Link></li>
+                    <li className='hover:text-[#FF624C] duration-200'><Link to="#">Privacy Policy</Link></li>
+                    <li className='hover:text-[#FF624C] duration-200'><Link to="#">Return Policy</Link></li>
+                    <li className='hover:text-[#FF624C] duration-200'><Link to="#">Help Centre</Link></li>
+                    <li className='hover:text-[#FF624C] duration-200'><Link to="#">Store Locations</Link></li>
+                    <li className='hover:text-[#FF624C] duration-200'><Link to="#">Careers</Link></li>
                 </ul>
             </div>
             <div className='mr-[80px]'>
                 <h4 className='font-[Poppins] text-xl font-semibold leading-[30px] mb-6'>Categories</h4>
                 <ul className='flex flex-col gap-y-3'>
-                    <li><Link to="#">Computers & Tablets</Link></li>
-                    <li><Link to="#">Mobile Phones & Accessories</Link></li>
-                    <li><Link to="#">TV & Home Theater</Link></li>
-                    <li><Link to="#">Audio & Headphones</Link></li>
-                    <li><Link to="#">Cameras & Camcorders</Link></li>
-                    <li><Link to="#">Gaming Equipment</Link></li>
-                    <li><Link to="#">Home Appliances</Link></li>
+                    <li className='hover:text-[#FF624C] duration-200'><Link to="#">Computers & Tablets</Link></li>
+                    <li className='hover:text-[#FF624C] duration-200'><Link to="#">Mobile Phones & Accessories</Link></li>
+                    <li className='hover:text-[#FF624C] duration-200'><Link to="#">TV & Home Theater</Link></li>
+                    <li className='hover:text-[#FF624C] duration-200'><Link to="#">Audio & Headphones</Link></li>
+                    <li className='hover:text-[#FF624C] duration-200'><Link to="#">Cameras & Camcorders</Link></li>
+                    <li className='hover:text-[#FF624C] duration-200'><Link to="#">Gaming Equipment</Link></li>
+                    <li className='hover:text-[#FF624C] duration-200'><Link to="#">Home Appliances</Link></li>
                 </ul>
             </div>
             <div>
@@ -69,9 +69,9 @@ const FooterBottom = () => {
                 <div className="bottom">
                     <h4 className='font-[Poppins] text-xl font-semibold leading-[30px] mb-6'>Follow Us</h4>
                     <ul className='flex flex-col gap-y-3'>
-                        <li><Link to="#">Twitter</Link></li>
-                        <li><Link to="#">Instagram</Link></li>
-                        <li><Link to="#">Facebook</Link></li>
+                        <li className='hover:text-[#FF624C] duration-200'><Link to="#">Twitter</Link></li>
+                        <li className='hover:text-[#FF624C] duration-200'><Link to="#">Instagram</Link></li>
+                        <li className='hover:text-[#FF624C] duration-200'><Link to="#">Facebook</Link></li>
                     </ul>
                 </div>
             </div>

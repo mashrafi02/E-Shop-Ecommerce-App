@@ -23,3 +23,78 @@
 .spring-sale .slick-prev{
   display: none !important;
 }
+
+input[type=checkbox]{
+  appearance: none;
+  -webkit-appearance: none;
+}
+
+input[type=checkbox] + label{
+  position: relative;
+  padding-left: 8px;
+  line-height: 24px;
+  cursor: pointer;
+}
+
+input[type=checkbox]:checked + label{
+  font-weight: bold;
+}
+
+input[type=checkbox] + label::before{
+  content: "";
+  cursor: pointer;
+  position: absolute;
+  top: 2px;
+  left: -23px;
+  width: 16px;
+  height: 16px;
+  border: 1px solid #303030;
+  border-radius: 2px;
+  background: #F4F4F4;
+}
+
+input[type=checkbox]:checked + label::before{
+  content: "";
+  cursor: pointer;
+  position: absolute;
+  top: 2px;
+  left: -23px;
+  width: 16px;
+  height: 16px;
+  border: transparent;
+  border-radius: 2px;
+  background: #FF624C
+}
+
+input[type=checkbox]:checked + label::after{
+  content: "";
+  cursor: pointer;
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  top: 6px;
+  left: -19px;
+  background-image: url("/images/check.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 16px;
+  width: 16px;
+  background: #FF624C;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-top: -7px;
+  position: relative;
+  z-index: 30;
+}
+
+input[type="range"]::-moz-range-thumb {
+  height: 16px;
+  width: 16px;
+  background: #FF624C;
+  border-radius: 50%;
+  cursor: pointer;
+}
