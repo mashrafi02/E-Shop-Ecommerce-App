@@ -1,0 +1,1242 @@
+[
+    {
+        "product_title" : "AUDIO",
+        "product_description" : "QuietComfort 45 Wireless Headphone ...",
+        "rating": "120",
+        "price": "329.99",
+        "star_rating" : 5
+    },
+    {
+        "product_title" : "WATCH",
+        "product_description" : "Orange Watch 12 High Quality Health Sensor...",
+        "rating": "120",
+        "price": "959.99",
+        "star_rating" : 5,
+        "discount" : "50",
+        "pre_price": "1,919.99"
+    },
+    {
+        "product_title" : "TABLET",
+        "product_description" : "Ultra Tablet Qwerty HD 10765 Series Low Pri...",
+        "rating": "100",
+        "price": "799.00",
+        "star_rating" : 5
+    },
+    {
+        "product_title" : "CAMERA",
+        "product_description" : "CamPro HERO10 Black Sleek Design 2023 4K ...",
+        "rating": "20",
+        "price": "1,499.99",
+        "star_rating" : 5
+    },
+    {
+        "product_title" : "LAPTOP",
+        "product_description" : "Surface Laptop 4 XPS 13 Plus 64GB i7 Touch ...",
+        "rating": "120",
+        "price": "2,399.99",
+        "star_rating" : 5,
+        "discount" : "20",
+        "pre_price": "2,878.00"
+    },
+    {
+        "product_title" : "AUDIO",
+        "product_description" : "WH-1000XM4 Wireless Headphones High Qu...",
+        "rating": "120",
+        "price": "59.00",
+        "star_rating" : 5
+    },
+    {
+        "product_title" : "PHONE",
+        "product_description" : "LT Phone RAM 16/256 GB Rose Gold Guaran...",
+        "rating": "50",
+        "price": "999.00",
+        "star_rating" : 5
+    },
+    {
+        "product_title" : "HOME",
+        "product_description" : "Wash Machine 11 KG Front Loading Steam ...",
+        "rating": "120",
+        "price": "5,699.00",
+        "star_rating" : 5,
+        "discount" : "10",
+        "pre_price": "6,268.00"
+    },
+    {
+        "product_title" : "WATCH",
+        "product_description" : "Mobile Watch A Series GPS 7/144 45 mm Red...",
+        "rating": "50",
+        "price": "999.00",
+        "star_rating" : 5
+    },
+    {
+        "product_title" : "LAPTOP",
+        "product_description" : "Gaming Laptop ZDY 15.6 Inch 512 GB VGA ...",
+        "rating": "120",
+        "price": "1,659.00",
+        "star_rating" : 5
+    },
+    {
+        "product_title" : "TABLET",
+        "product_description" : "Tablet Pro 128 GB HD RAM 8 GB i8 1080P 4K ...",
+        "rating": "120",
+        "price": "129.00",
+        "star_rating" : 5,
+        "discount" : "30",
+        "pre_price": "167.00"
+    },
+    {
+        "product_title" : "TELEVISION",
+        "product_description" : "AG OLED65CXPUA 4K Smart OLED TV New ...",
+        "rating": "20",
+        "price": "2,799.00",
+        "star_rating" : 5
+    },
+    {
+        "product_title" : "TELEVISION",
+        "product_description" : "Crystal 4K Smart 50” Black LED TV HD Quali...",
+        "rating": "120",
+        "price": "8,199.00",
+        "star_rating" : 5,
+        "discount" : "10",
+        "pre_price": "9,018.00"
+    },
+    {
+        "product_title" : "TABLET",
+        "product_description" : "Mini Tablet Pro 16 inch HD Pencil 128 GB Sys...",
+        "rating": "120",
+        "price": "329.99",
+        "star_rating" : 5
+    },
+    {
+        "product_title" : "AUDIO",
+        "product_description" : "134S Wireless Max Hifi Stereo Headphone Be...",
+        "rating": "50",
+        "price": "29.00",
+        "star_rating" : 5
+    },
+    {
+        "product_title" : "GAMING",
+        "product_description" : "Game Station 15 Disc Edition with Console ...",
+        "rating": "120",
+        "price": "5,299.99",
+        "star_rating" : 5,
+        "discount" : "20",
+        "pre_price": "6,358.00"
+    },
+    {
+        "product_title" : "AUDIO2",
+        "product_description" : "QuietComfort 45 Wireless Headphone ...",
+        "rating": "120",
+        "price": "329.99",
+        "star_rating" : 5
+    },
+    {
+        "product_title" : "WATCH2",
+        "product_description" : "Orange Watch 12 High Quality Health Sensor...",
+        "rating": "120",
+        "price": "959.99",
+        "star_rating" : 5,
+        "discount" : "50",
+        "pre_price": "1,919.99"
+    },
+    {
+        "product_title" : "TABLET2",
+        "product_description" : "Ultra Tablet Qwerty HD 10765 Series Low Pri...",
+        "rating": "100",
+        "price": "799.00",
+        "star_rating" : 5
+    },
+    {
+        "product_title" : "CAMERA2",
+        "product_description" : "CamPro HERO10 Black Sleek Design 2023 4K ...",
+        "rating": "20",
+        "price": "1,499.99",
+        "star_rating" : 5
+    },
+    {
+        "product_title" : "LAPTOP2",
+        "product_description" : "Surface Laptop 4 XPS 13 Plus 64GB i7 Touch ...",
+        "rating": "120",
+        "price": "2,399.99",
+        "star_rating" : 5,
+        "discount" : "20",
+        "pre_price": "2,878.00"
+    },
+    {
+        "product_title" : "AUDIO",
+        "product_description" : "WH-1000XM4 Wireless Headphones High Qu...",
+        "rating": "120",
+        "price": "59.00",
+        "star_rating" : 5
+    },
+    {
+        "product_title" : "PHONE",
+        "product_description" : "LT Phone RAM 16/256 GB Rose Gold Guaran...",
+        "rating": "50",
+        "price": "999.00",
+        "star_rating" : 5
+    },
+    {
+        "product_title" : "HOME22",
+        "product_description" : "Wash Machine 11 KG Front Loading Steam ...",
+        "rating": "120",
+        "price": "5,699.00",
+        "star_rating" : 5,
+        "discount" : "10",
+        "pre_price": "6,268.00"
+    },
+    {
+        "product_title" : "WATCH676",
+        "product_description" : "Mobile Watch A Series GPS 7/144 45 mm Red...",
+        "rating": "50",
+        "price": "999.00",
+        "star_rating" : 5
+    },
+    {
+        "product_title" : "LAPTOP",
+        "product_description" : "Gaming Laptop ZDY 15.6 Inch 512 GB VGA ...",
+        "rating": "120",
+        "price": "1,659.00",
+        "star_rating" : 5
+    },
+    {
+        "product_title" : "TABLET",
+        "product_description" : "Tablet Pro 128 GB HD RAM 8 GB i8 1080P 4K ...",
+        "rating": "120",
+        "price": "129.00",
+        "star_rating" : 5,
+        "discount" : "30",
+        "pre_price": "167.00"
+    },
+    {
+        "product_title" : "TELEVISION3562456",
+        "product_description" : "AG OLED65CXPUA 4K Smart OLED TV New ...",
+        "rating": "20",
+        "price": "2,799.00",
+        "star_rating" : 5
+    },
+    {
+        "product_title" : "TELEVISION",
+        "product_description" : "Crystal 4K Smart 50” Black LED TV HD Quali...",
+        "rating": "120",
+        "price": "8,199.00",
+        "star_rating" : 5,
+        "discount" : "10",
+        "pre_price": "9,018.00"
+    },
+    {
+        "product_title" : "TABLET",
+        "product_description" : "Mini Tablet Pro 16 inch HD Pencil 128 GB Sys...",
+        "rating": "120",
+        "price": "329.99",
+        "star_rating" : 5
+    },
+    {
+        "product_title" : "AUDIO645374",
+        "product_description" : "134S Wireless Max Hifi Stereo Headphone Be...",
+        "rating": "50",
+        "price": "29.00",
+        "star_rating" : 5
+    },
+    {
+        "product_title" : "GAMING1123",
+        "product_description" : "Game Station 15 Disc Edition with Console ...",
+        "rating": "120",
+        "price": "5,299.99",
+        "star_rating" : 5,
+        "discount" : "20",
+        "pre_price": "6,358.00"
+    },
+    {
+        "product_title" : "AUDIO",
+        "product_description" : "QuietComfort 45 Wireless Headphone ...",
+        "rating": "120",
+        "price": "329.99",
+        "star_rating" : 5
+    },
+    {
+        "product_title" : "WATCH879567",
+        "product_description" : "Orange Watch 12 High Quality Health Sensor...",
+        "rating": "120",
+        "price": "959.99",
+        "star_rating" : 5,
+        "discount" : "50",
+        "pre_price": "1,919.99"
+    },
+    {
+        "product_title" : "TABLET",
+        "product_description" : "Ultra Tablet Qwerty HD 10765 Series Low Pri...",
+        "rating": "100",
+        "price": "799.00",
+        "star_rating" : 5
+    },
+    {
+        "product_title" : "CAMERA",
+        "product_description" : "CamPro HERO10 Black Sleek Design 2023 4K ...",
+        "rating": "20",
+        "price": "1,499.99",
+        "star_rating" : 5
+    },
+    {
+        "product_title" : "LAPTOP47346y24",
+        "product_description" : "Surface Laptop 4 XPS 13 Plus 64GB i7 Touch ...",
+        "rating": "120",
+        "price": "2,399.99",
+        "star_rating" : 5,
+        "discount" : "20",
+        "pre_price": "2,878.00"
+    },
+    {
+        "product_title" : "AUDIO3673472",
+        "product_description" : "WH-1000XM4 Wireless Headphones High Qu...",
+        "rating": "120",
+        "price": "59.00",
+        "star_rating" : 5
+    },
+    {
+        "product_title" : "PHONE367367",
+        "product_description" : "LT Phone RAM 16/256 GB Rose Gold Guaran...",
+        "rating": "50",
+        "price": "999.00",
+        "star_rating" : 5
+    },
+    {
+        "product_title" : "HOME",
+        "product_description" : "Wash Machine 11 KG Front Loading Steam ...",
+        "rating": "120",
+        "price": "5,699.00",
+        "star_rating" : 5,
+        "discount" : "10",
+        "pre_price": "6,268.00"
+    },
+    {
+        "product_title" : "WATCH",
+        "product_description" : "Mobile Watch A Series GPS 7/144 45 mm Red...",
+        "rating": "50",
+        "price": "999.00",
+        "star_rating" : 5
+    },
+    {
+        "product_title" : "LAPTOP",
+        "product_description" : "Gaming Laptop ZDY 15.6 Inch 512 GB VGA ...",
+        "rating": "120",
+        "price": "1,659.00",
+        "star_rating" : 5
+    },
+    {
+        "product_title" : "TABLET2345",
+        "product_description" : "Tablet Pro 128 GB HD RAM 8 GB i8 1080P 4K ...",
+        "rating": "120",
+        "price": "129.00",
+        "star_rating" : 5,
+        "discount" : "30",
+        "pre_price": "167.00"
+    },
+    {
+        "product_title" : "TELEVISION",
+        "product_description" : "AG OLED65CXPUA 4K Smart OLED TV New ...",
+        "rating": "20",
+        "price": "2,799.00",
+        "star_rating" : 5
+    },
+    {
+        "product_title" : "TELEVISIONr78y",
+        "product_description" : "Crystal 4K Smart 50” Black LED TV HD Quali...",
+        "rating": "120",
+        "price": "8,199.00",
+        "star_rating" : 5,
+        "discount" : "10",
+        "pre_price": "9,018.00"
+    },
+    {
+        "product_title" : "TABLETghry",
+        "product_description" : "Mini Tablet Pro 16 inch HD Pencil 128 GB Sys...",
+        "rating": "120",
+        "price": "329.99",
+        "star_rating" : 5
+    },
+    {
+        "product_title" : "AUDIO",
+        "product_description" : "134S Wireless Max Hifi Stereo Headphone Be...",
+        "rating": "50",
+        "price": "29.00",
+        "star_rating" : 5
+    },
+    {
+        "product_title" : "GAMING56734",
+        "product_description" : "Game Station 15 Disc Edition with Console ...",
+        "rating": "120",
+        "price": "5,299.99",
+        "star_rating" : 5,
+        "discount" : "20",
+        "pre_price": "6,358.00"
+    },
+    {
+        "product_title" : "AUDIO",
+        "product_description" : "QuietComfort 45 Wireless Headphone ...",
+        "rating": "120",
+        "price": "329.99",
+        "star_rating" : 5
+    },
+    {
+        "product_title" : "WATCH",
+        "product_description" : "Orange Watch 12 High Quality Health Sensor...",
+        "rating": "120",
+        "price": "959.99",
+        "star_rating" : 5,
+        "discount" : "50",
+        "pre_price": "1,919.99"
+    },
+    {
+        "product_title" : "TABLET253425",
+        "product_description" : "Ultra Tablet Qwerty HD 10765 Series Low Pri...",
+        "rating": "100",
+        "price": "799.00",
+        "star_rating" : 5
+    },
+    {
+        "product_title" : "CAMERA",
+        "product_description" : "CamPro HERO10 Black Sleek Design 2023 4K ...",
+        "rating": "20",
+        "price": "1,499.99",
+        "star_rating" : 5
+    },
+    {
+        "product_title" : "LAPTOP",
+        "product_description" : "Surface Laptop 4 XPS 13 Plus 64GB i7 Touch ...",
+        "rating": "120",
+        "price": "2,399.99",
+        "star_rating" : 5,
+        "discount" : "20",
+        "pre_price": "2,878.00"
+    },
+    {
+        "product_title" : "AUDIO",
+        "product_description" : "WH-1000XM4 Wireless Headphones High Qu...",
+        "rating": "120",
+        "price": "59.00",
+        "star_rating" : 5
+    },
+    {
+        "product_title" : "PHONE",
+        "product_description" : "LT Phone RAM 16/256 GB Rose Gold Guaran...",
+        "rating": "50",
+        "price": "999.00",
+        "star_rating" : 5
+    },
+    {
+        "product_title" : "HOME89865",
+        "product_description" : "Wash Machine 11 KG Front Loading Steam ...",
+        "rating": "120",
+        "price": "5,699.00",
+        "star_rating" : 5,
+        "discount" : "10",
+        "pre_price": "6,268.00"
+    },
+    {
+        "product_title" : "WATCH",
+        "product_description" : "Mobile Watch A Series GPS 7/144 45 mm Red...",
+        "rating": "50",
+        "price": "999.00",
+        "star_rating" : 5
+    },
+    {
+        "product_title" : "LAPTOP",
+        "product_description" : "Gaming Laptop ZDY 15.6 Inch 512 GB VGA ...",
+        "rating": "120",
+        "price": "1,659.00",
+        "star_rating" : 5
+    },
+    {
+        "product_title" : "TABLET4926",
+        "product_description" : "Tablet Pro 128 GB HD RAM 8 GB i8 1080P 4K ...",
+        "rating": "120",
+        "price": "129.00",
+        "star_rating" : 5,
+        "discount" : "30",
+        "pre_price": "167.00"
+    },
+    {
+        "product_title" : "TELEVISION",
+        "product_description" : "AG OLED65CXPUA 4K Smart OLED TV New ...",
+        "rating": "20",
+        "price": "2,799.00",
+        "star_rating" : 5
+    },
+    {
+        "product_title" : "TELEVISION",
+        "product_description" : "Crystal 4K Smart 50” Black LED TV HD Quali...",
+        "rating": "120",
+        "price": "8,199.00",
+        "star_rating" : 5,
+        "discount" : "10",
+        "pre_price": "9,018.00"
+    },
+    {
+        "product_title" : "TABLET247356u09",
+        "product_description" : "Mini Tablet Pro 16 inch HD Pencil 128 GB Sys...",
+        "rating": "120",
+        "price": "329.99",
+        "star_rating" : 5
+    },
+    {
+        "product_title" : "AUDIO",
+        "product_description" : "134S Wireless Max Hifi Stereo Headphone Be...",
+        "rating": "50",
+        "price": "29.00",
+        "star_rating" : 5
+    },
+    {
+        "product_title" : "GAMING",
+        "product_description" : "Game Station 15 Disc Edition with Console ...",
+        "rating": "120",
+        "price": "5,299.99",
+        "star_rating" : 5,
+        "discount" : "20",
+        "pre_price": "6,358.00"
+    },
+    {
+        "product_title" : "AUDIO",
+        "product_description" : "QuietComfort 45 Wireless Headphone ...",
+        "rating": "120",
+        "price": "329.99",
+        "star_rating" : 5
+    },
+    {
+        "product_title" : "WATCH5743724",
+        "product_description" : "Orange Watch 12 High Quality Health Sensor...",
+        "rating": "120",
+        "price": "959.99",
+        "star_rating" : 5,
+        "discount" : "50",
+        "pre_price": "1,919.99"
+    },
+    {
+        "product_title" : "TABLET624572472",
+        "product_description" : "Ultra Tablet Qwerty HD 10765 Series Low Pri...",
+        "rating": "100",
+        "price": "799.00",
+        "star_rating" : 5
+    },
+    {
+        "product_title" : "CAMERA5848567",
+        "product_description" : "CamPro HERO10 Black Sleek Design 2023 4K ...",
+        "rating": "20",
+        "price": "1,499.99",
+        "star_rating" : 5
+    },
+    {
+        "product_title" : "LAPTOP",
+        "product_description" : "Surface Laptop 4 XPS 13 Plus 64GB i7 Touch ...",
+        "rating": "120",
+        "price": "2,399.99",
+        "star_rating" : 5,
+        "discount" : "20",
+        "pre_price": "2,878.00"
+    },
+    {
+        "product_title" : "AUDIO",
+        "product_description" : "WH-1000XM4 Wireless Headphones High Qu...",
+        "rating": "120",
+        "price": "59.00",
+        "star_rating" : 5
+    },
+    {
+        "product_title" : "PHONE",
+        "product_description" : "LT Phone RAM 16/256 GB Rose Gold Guaran...",
+        "rating": "50",
+        "price": "999.00",
+        "star_rating" : 5
+    },
+    {
+        "product_title" : "HOME",
+        "product_description" : "Wash Machine 11 KG Front Loading Steam ...",
+        "rating": "120",
+        "price": "5,699.00",
+        "star_rating" : 5,
+        "discount" : "10",
+        "pre_price": "6,268.00"
+    },
+    {
+        "product_title" : "WATCH35685626",
+        "product_description" : "Mobile Watch A Series GPS 7/144 45 mm Red...",
+        "rating": "50",
+        "price": "999.00",
+        "star_rating" : 5
+    },
+    {
+        "product_title" : "LAPTOP",
+        "product_description" : "Gaming Laptop ZDY 15.6 Inch 512 GB VGA ...",
+        "rating": "120",
+        "price": "1,659.00",
+        "star_rating" : 5
+    },
+    {
+        "product_title" : "TABLET",
+        "product_description" : "Tablet Pro 128 GB HD RAM 8 GB i8 1080P 4K ...",
+        "rating": "120",
+        "price": "129.00",
+        "star_rating" : 5,
+        "discount" : "30",
+        "pre_price": "167.00"
+    },
+    {
+        "product_title" : "TELEVISION2457367247352",
+        "product_description" : "AG OLED65CXPUA 4K Smart OLED TV New ...",
+        "rating": "20",
+        "price": "2,799.00",
+        "star_rating" : 5
+    },
+    {
+        "product_title" : "TELEVISION",
+        "product_description" : "Crystal 4K Smart 50” Black LED TV HD Quali...",
+        "rating": "120",
+        "price": "8,199.00",
+        "star_rating" : 5,
+        "discount" : "10",
+        "pre_price": "9,018.00"
+    },
+    {
+        "product_title" : "TABLET27547568",
+        "product_description" : "Mini Tablet Pro 16 inch HD Pencil 128 GB Sys...",
+        "rating": "120",
+        "price": "329.99",
+        "star_rating" : 5
+    },
+    {
+        "product_title" : "AUDIO",
+        "product_description" : "134S Wireless Max Hifi Stereo Headphone Be...",
+        "rating": "50",
+        "price": "29.00",
+        "star_rating" : 5
+    },
+    {
+        "product_title" : "GAMING64574",
+        "product_description" : "Game Station 15 Disc Edition with Console ...",
+        "rating": "120",
+        "price": "5,299.99",
+        "star_rating" : 5,
+        "discount" : "20",
+        "pre_price": "6,358.00"
+    },
+    {
+        "product_title" : "AUDIO",
+        "product_description" : "QuietComfort 45 Wireless Headphone ...",
+        "rating": "120",
+        "price": "329.99",
+        "star_rating" : 5
+    },
+    {
+        "product_title" : "WATCH695675",
+        "product_description" : "Orange Watch 12 High Quality Health Sensor...",
+        "rating": "120",
+        "price": "959.99",
+        "star_rating" : 5,
+        "discount" : "50",
+        "pre_price": "1,919.99"
+    },
+    {
+        "product_title" : "TABLET13134",
+        "product_description" : "Ultra Tablet Qwerty HD 10765 Series Low Pri...",
+        "rating": "100",
+        "price": "799.00",
+        "star_rating" : 5
+    },
+    {
+        "product_title" : "CAMERA",
+        "product_description" : "CamPro HERO10 Black Sleek Design 2023 4K ...",
+        "rating": "20",
+        "price": "1,499.99",
+        "star_rating" : 5
+    },
+    {
+        "product_title" : "LAPTOP69790",
+        "product_description" : "Surface Laptop 4 XPS 13 Plus 64GB i7 Touch ...",
+        "rating": "120",
+        "price": "2,399.99",
+        "star_rating" : 5,
+        "discount" : "20",
+        "pre_price": "2,878.00"
+    },
+    {
+        "product_title" : "AUDIO",
+        "product_description" : "WH-1000XM4 Wireless Headphones High Qu...",
+        "rating": "120",
+        "price": "59.00",
+        "star_rating" : 5
+    },
+    {
+        "product_title" : "PHONE3563456",
+        "product_description" : "LT Phone RAM 16/256 GB Rose Gold Guaran...",
+        "rating": "50",
+        "price": "999.00",
+        "star_rating" : 5
+    },
+    {
+        "product_title" : "HOME",
+        "product_description" : "Wash Machine 11 KG Front Loading Steam ...",
+        "rating": "120",
+        "price": "5,699.00",
+        "star_rating" : 5,
+        "discount" : "10",
+        "pre_price": "6,268.00"
+    },
+    {
+        "product_title" : "WATCH",
+        "product_description" : "Mobile Watch A Series GPS 7/144 45 mm Red...",
+        "rating": "50",
+        "price": "999.00",
+        "star_rating" : 5
+    },
+    {
+        "product_title" : "LAPTOP",
+        "product_description" : "Gaming Laptop ZDY 15.6 Inch 512 GB VGA ...",
+        "rating": "120",
+        "price": "1,659.00",
+        "star_rating" : 5
+    },
+    {
+        "product_title" : "TABLET09-967u5",
+        "product_description" : "Tablet Pro 128 GB HD RAM 8 GB i8 1080P 4K ...",
+        "rating": "120",
+        "price": "129.00",
+        "star_rating" : 5,
+        "discount" : "30",
+        "pre_price": "167.00"
+    },
+    {
+        "product_title" : "TELEVISION",
+        "product_description" : "AG OLED65CXPUA 4K Smart OLED TV New ...",
+        "rating": "20",
+        "price": "2,799.00",
+        "star_rating" : 5
+    },
+    {
+        "product_title" : "TELEVISION45347345",
+        "product_description" : "Crystal 4K Smart 50” Black LED TV HD Quali...",
+        "rating": "120",
+        "price": "8,199.00",
+        "star_rating" : 5,
+        "discount" : "10",
+        "pre_price": "9,018.00"
+    },
+    {
+        "product_title" : "TABLET4767957",
+        "product_description" : "Mini Tablet Pro 16 inch HD Pencil 128 GB Sys...",
+        "rating": "120",
+        "price": "329.99",
+        "star_rating" : 5
+    },
+    {
+        "product_title" : "AUDIO",
+        "product_description" : "134S Wireless Max Hifi Stereo Headphone Be...",
+        "rating": "50",
+        "price": "29.00",
+        "star_rating" : 5
+    },
+    {
+        "product_title" : "GAMING45w734682",
+        "product_description" : "Game Station 15 Disc Edition with Console ...",
+        "rating": "120",
+        "price": "5,299.99",
+        "star_rating" : 5,
+        "discount" : "20",
+        "pre_price": "6,358.00"
+    },
+    {
+        "product_title" : "AUDIO",
+        "product_description" : "QuietComfort 45 Wireless Headphone ...",
+        "rating": "120",
+        "price": "329.99",
+        "star_rating" : 5
+    },
+    {
+        "product_title" : "WATCH",
+        "product_description" : "Orange Watch 12 High Quality Health Sensor...",
+        "rating": "120",
+        "price": "959.99",
+        "star_rating" : 5,
+        "discount" : "50",
+        "pre_price": "1,919.99"
+    },
+    {
+        "product_title" : "TABLET",
+        "product_description" : "Ultra Tablet Qwerty HD 10765 Series Low Pri...",
+        "rating": "100",
+        "price": "799.00",
+        "star_rating" : 5
+    },
+    {
+        "product_title" : "CAMERA89063467",
+        "product_description" : "CamPro HERO10 Black Sleek Design 2023 4K ...",
+        "rating": "20",
+        "price": "1,499.99",
+        "star_rating" : 5
+    },
+    {
+        "product_title" : "LAPTOP",
+        "product_description" : "Surface Laptop 4 XPS 13 Plus 64GB i7 Touch ...",
+        "rating": "120",
+        "price": "2,399.99",
+        "star_rating" : 5,
+        "discount" : "20",
+        "pre_price": "2,878.00"
+    },
+    {
+        "product_title" : "AUDIO46452583",
+        "product_description" : "WH-1000XM4 Wireless Headphones High Qu...",
+        "rating": "120",
+        "price": "59.00",
+        "star_rating" : 5
+    },
+    {
+        "product_title" : "PHONE",
+        "product_description" : "LT Phone RAM 16/256 GB Rose Gold Guaran...",
+        "rating": "50",
+        "price": "999.00",
+        "star_rating" : 5
+    },
+    {
+        "product_title" : "HOME5383372",
+        "product_description" : "Wash Machine 11 KG Front Loading Steam ...",
+        "rating": "120",
+        "price": "5,699.00",
+        "star_rating" : 5,
+        "discount" : "10",
+        "pre_price": "6,268.00"
+    },
+    {
+        "product_title" : "WATCH",
+        "product_description" : "Mobile Watch A Series GPS 7/144 45 mm Red...",
+        "rating": "50",
+        "price": "999.00",
+        "star_rating" : 5
+    },
+    {
+        "product_title" : "LAPTOP46857834256",
+        "product_description" : "Gaming Laptop ZDY 15.6 Inch 512 GB VGA ...",
+        "rating": "120",
+        "price": "1,659.00",
+        "star_rating" : 5
+    },
+    {
+        "product_title" : "TABLET",
+        "product_description" : "Tablet Pro 128 GB HD RAM 8 GB i8 1080P 4K ...",
+        "rating": "120",
+        "price": "129.00",
+        "star_rating" : 5,
+        "discount" : "30",
+        "pre_price": "167.00"
+    },
+    {
+        "product_title" : "TELEVISION",
+        "product_description" : "AG OLED65CXPUA 4K Smart OLED TV New ...",
+        "rating": "20",
+        "price": "2,799.00",
+        "star_rating" : 5
+    },
+    {
+        "product_title" : "TELEVISION",
+        "product_description" : "Crystal 4K Smart 50” Black LED TV HD Quali...",
+        "rating": "120",
+        "price": "8,199.00",
+        "star_rating" : 5,
+        "discount" : "10",
+        "pre_price": "9,018.00"
+    },
+    {
+        "product_title" : "TABLET261346579",
+        "product_description" : "Mini Tablet Pro 16 inch HD Pencil 128 GB Sys...",
+        "rating": "120",
+        "price": "329.99",
+        "star_rating" : 5
+    },
+    {
+        "product_title" : "AUDIO",
+        "product_description" : "134S Wireless Max Hifi Stereo Headphone Be...",
+        "rating": "50",
+        "price": "29.00",
+        "star_rating" : 5
+    },
+    {
+        "product_title" : "GAMING",
+        "product_description" : "Game Station 15 Disc Edition with Console ...",
+        "rating": "120",
+        "price": "5,299.99",
+        "star_rating" : 5,
+        "discount" : "20",
+        "pre_price": "6,358.00"
+    },
+    {
+        "product_title" : "AUDIO247436",
+        "product_description" : "QuietComfort 45 Wireless Headphone ...",
+        "rating": "120",
+        "price": "329.99",
+        "star_rating" : 5
+    },
+    {
+        "product_title" : "WATCH",
+        "product_description" : "Orange Watch 12 High Quality Health Sensor...",
+        "rating": "120",
+        "price": "959.99",
+        "star_rating" : 5,
+        "discount" : "50",
+        "pre_price": "1,919.99"
+    },
+    {
+        "product_title" : "TABLET5893567",
+        "product_description" : "Ultra Tablet Qwerty HD 10765 Series Low Pri...",
+        "rating": "100",
+        "price": "799.00",
+        "star_rating" : 5
+    },
+    {
+        "product_title" : "CAMERA",
+        "product_description" : "CamPro HERO10 Black Sleek Design 2023 4K ...",
+        "rating": "20",
+        "price": "1,499.99",
+        "star_rating" : 5
+    },
+    {
+        "product_title" : "LAPTOP74556",
+        "product_description" : "Surface Laptop 4 XPS 13 Plus 64GB i7 Touch ...",
+        "rating": "120",
+        "price": "2,399.99",
+        "star_rating" : 5,
+        "discount" : "20",
+        "pre_price": "2,878.00"
+    },
+    {
+        "product_title" : "AUDIOe67wrty",
+        "product_description" : "WH-1000XM4 Wireless Headphones High Qu...",
+        "rating": "120",
+        "price": "59.00",
+        "star_rating" : 5
+    },
+    {
+        "product_title" : "PHONE",
+        "product_description" : "LT Phone RAM 16/256 GB Rose Gold Guaran...",
+        "rating": "50",
+        "price": "999.00",
+        "star_rating" : 5
+    },
+    {
+        "product_title" : "HOME",
+        "product_description" : "Wash Machine 11 KG Front Loading Steam ...",
+        "rating": "120",
+        "price": "5,699.00",
+        "star_rating" : 5,
+        "discount" : "10",
+        "pre_price": "6,268.00"
+    },
+    {
+        "product_title" : "WATCH",
+        "product_description" : "Mobile Watch A Series GPS 7/144 45 mm Red...",
+        "rating": "50",
+        "price": "999.00",
+        "star_rating" : 5
+    },
+    {
+        "product_title" : "LAPTOP",
+        "product_description" : "Gaming Laptop ZDY 15.6 Inch 512 GB VGA ...",
+        "rating": "120",
+        "price": "1,659.00",
+        "star_rating" : 5
+    },
+    {
+        "product_title" : "TABLET897",
+        "product_description" : "Tablet Pro 128 GB HD RAM 8 GB i8 1080P 4K ...",
+        "rating": "120",
+        "price": "129.00",
+        "star_rating" : 5,
+        "discount" : "30",
+        "pre_price": "167.00"
+    },
+    {
+        "product_title" : "TELEVISION",
+        "product_description" : "AG OLED65CXPUA 4K Smart OLED TV New ...",
+        "rating": "20",
+        "price": "2,799.00",
+        "star_rating" : 5
+    },
+    {
+        "product_title" : "TELEVISION",
+        "product_description" : "Crystal 4K Smart 50” Black LED TV HD Quali...",
+        "rating": "120",
+        "price": "8,199.00",
+        "star_rating" : 5,
+        "discount" : "10",
+        "pre_price": "9,018.00"
+    },
+    {
+        "product_title" : "TABLET4734672",
+        "product_description" : "Mini Tablet Pro 16 inch HD Pencil 128 GB Sys...",
+        "rating": "120",
+        "price": "329.99",
+        "star_rating" : 5
+    },
+    {
+        "product_title" : "AUDIO",
+        "product_description" : "134S Wireless Max Hifi Stereo Headphone Be...",
+        "rating": "50",
+        "price": "29.00",
+        "star_rating" : 5
+    },
+    {
+        "product_title" : "GAMING",
+        "product_description" : "Game Station 15 Disc Edition with Console ...",
+        "rating": "120",
+        "price": "5,299.99",
+        "star_rating" : 5,
+        "discount" : "20",
+        "pre_price": "6,358.00"
+    },
+    {
+        "product_title" : "AUDIO",
+        "product_description" : "QuietComfort 45 Wireless Headphone ...",
+        "rating": "120",
+        "price": "329.99",
+        "star_rating" : 5
+    },
+    {
+        "product_title" : "WATCH089-643",
+        "product_description" : "Orange Watch 12 High Quality Health Sensor...",
+        "rating": "120",
+        "price": "959.99",
+        "star_rating" : 5,
+        "discount" : "50",
+        "pre_price": "1,919.99"
+    },
+    {
+        "product_title" : "TABLET",
+        "product_description" : "Ultra Tablet Qwerty HD 10765 Series Low Pri...",
+        "rating": "100",
+        "price": "799.00",
+        "star_rating" : 5
+    },
+    {
+        "product_title" : "CAMERA",
+        "product_description" : "CamPro HERO10 Black Sleek Design 2023 4K ...",
+        "rating": "20",
+        "price": "1,499.99",
+        "star_rating" : 5
+    },
+    {
+        "product_title" : "LAPTOP4746253",
+        "product_description" : "Surface Laptop 4 XPS 13 Plus 64GB i7 Touch ...",
+        "rating": "120",
+        "price": "2,399.99",
+        "star_rating" : 5,
+        "discount" : "20",
+        "pre_price": "2,878.00"
+    },
+    {
+        "product_title" : "AUDIO",
+        "product_description" : "WH-1000XM4 Wireless Headphones High Qu...",
+        "rating": "120",
+        "price": "59.00",
+        "star_rating" : 5
+    },
+    {
+        "product_title" : "PHONE",
+        "product_description" : "LT Phone RAM 16/256 GB Rose Gold Guaran...",
+        "rating": "50",
+        "price": "999.00",
+        "star_rating" : 5
+    },
+    {
+        "product_title" : "HOME4w5736596",
+        "product_description" : "Wash Machine 11 KG Front Loading Steam ...",
+        "rating": "120",
+        "price": "5,699.00",
+        "star_rating" : 5,
+        "discount" : "10",
+        "pre_price": "6,268.00"
+    },
+    {
+        "product_title" : "WATCH",
+        "product_description" : "Mobile Watch A Series GPS 7/144 45 mm Red...",
+        "rating": "50",
+        "price": "999.00",
+        "star_rating" : 5
+    },
+    {
+        "product_title" : "LAPTOP",
+        "product_description" : "Gaming Laptop ZDY 15.6 Inch 512 GB VGA ...",
+        "rating": "120",
+        "price": "1,659.00",
+        "star_rating" : 5
+    },
+    {
+        "product_title" : "TABLET905845",
+        "product_description" : "Tablet Pro 128 GB HD RAM 8 GB i8 1080P 4K ...",
+        "rating": "120",
+        "price": "129.00",
+        "star_rating" : 5,
+        "discount" : "30",
+        "pre_price": "167.00"
+    },
+    {
+        "product_title" : "TELEVISION",
+        "product_description" : "AG OLED65CXPUA 4K Smart OLED TV New ...",
+        "rating": "20",
+        "price": "2,799.00",
+        "star_rating" : 5
+    },
+    {
+        "product_title" : "TELEVISION",
+        "product_description" : "Crystal 4K Smart 50” Black LED TV HD Quali...",
+        "rating": "120",
+        "price": "8,199.00",
+        "star_rating" : 5,
+        "discount" : "10",
+        "pre_price": "9,018.00"
+    },
+    {
+        "product_title" : "TABLET",
+        "product_description" : "Mini Tablet Pro 16 inch HD Pencil 128 GB Sys...",
+        "rating": "120",
+        "price": "329.99",
+        "star_rating" : 5
+    },
+    {
+        "product_title" : "AUDIO",
+        "product_description" : "134S Wireless Max Hifi Stereo Headphone Be...",
+        "rating": "50",
+        "price": "29.00",
+        "star_rating" : 5
+    },
+    {
+        "product_title" : "GAMING45624566",
+        "product_description" : "Game Station 15 Disc Edition with Console ...",
+        "rating": "120",
+        "price": "5,299.99",
+        "star_rating" : 5,
+        "discount" : "20",
+        "pre_price": "6,358.00"
+    },
+    {
+        "product_title" : "AUDIO",
+        "product_description" : "QuietComfort 45 Wireless Headphone ...",
+        "rating": "120",
+        "price": "329.99",
+        "star_rating" : 5
+    },
+    {
+        "product_title" : "WATCH",
+        "product_description" : "Orange Watch 12 High Quality Health Sensor...",
+        "rating": "120",
+        "price": "959.99",
+        "star_rating" : 5,
+        "discount" : "50",
+        "pre_price": "1,919.99"
+    },
+    {
+        "product_title" : "TABLET356367",
+        "product_description" : "Ultra Tablet Qwerty HD 10765 Series Low Pri...",
+        "rating": "100",
+        "price": "799.00",
+        "star_rating" : 5
+    },
+    {
+        "product_title" : "CAMERA",
+        "product_description" : "CamPro HERO10 Black Sleek Design 2023 4K ...",
+        "rating": "20",
+        "price": "1,499.99",
+        "star_rating" : 5
+    },
+    {
+        "product_title" : "LAPTOP",
+        "product_description" : "Surface Laptop 4 XPS 13 Plus 64GB i7 Touch ...",
+        "rating": "120",
+        "price": "2,399.99",
+        "star_rating" : 5,
+        "discount" : "20",
+        "pre_price": "2,878.00"
+    },
+    {
+        "product_title" : "AUDIO",
+        "product_description" : "WH-1000XM4 Wireless Headphones High Qu...",
+        "rating": "120",
+        "price": "59.00",
+        "star_rating" : 5
+    },
+    {
+        "product_title" : "PHONE",
+        "product_description" : "LT Phone RAM 16/256 GB Rose Gold Guaran...",
+        "rating": "50",
+        "price": "999.00",
+        "star_rating" : 5
+    },
+    {
+        "product_title" : "HOME583637",
+        "product_description" : "Wash Machine 11 KG Front Loading Steam ...",
+        "rating": "120",
+        "price": "5,699.00",
+        "star_rating" : 5,
+        "discount" : "10",
+        "pre_price": "6,268.00"
+    },
+    {
+        "product_title" : "WATCH",
+        "product_description" : "Mobile Watch A Series GPS 7/144 45 mm Red...",
+        "rating": "50",
+        "price": "999.00",
+        "star_rating" : 5
+    },
+    {
+        "product_title" : "LAPTOP",
+        "product_description" : "Gaming Laptop ZDY 15.6 Inch 512 GB VGA ...",
+        "rating": "120",
+        "price": "1,659.00",
+        "star_rating" : 5
+    },
+    {
+        "product_title" : "TABLET",
+        "product_description" : "Tablet Pro 128 GB HD RAM 8 GB i8 1080P 4K ...",
+        "rating": "120",
+        "price": "129.00",
+        "star_rating" : 5,
+        "discount" : "30",
+        "pre_price": "167.00"
+    },
+    {
+        "product_title" : "TELEVISIONw3564w5",
+        "product_description" : "AG OLED65CXPUA 4K Smart OLED TV New ...",
+        "rating": "20",
+        "price": "2,799.00",
+        "star_rating" : 5
+    },
+    {
+        "product_title" : "TELEVISION",
+        "product_description" : "Crystal 4K Smart 50” Black LED TV HD Quali...",
+        "rating": "120",
+        "price": "8,199.00",
+        "star_rating" : 5,
+        "discount" : "10",
+        "pre_price": "9,018.00"
+    },
+    {
+        "product_title" : "TABLET",
+        "product_description" : "Mini Tablet Pro 16 inch HD Pencil 128 GB Sys...",
+        "rating": "120",
+        "price": "329.99",
+        "star_rating" : 5
+    },
+    {
+        "product_title" : "AUDIO",
+        "product_description" : "134S Wireless Max Hifi Stereo Headphone Be...",
+        "rating": "50",
+        "price": "29.00",
+        "star_rating" : 5
+    },
+    {
+        "product_title" : "GAMING3w65245",
+        "product_description" : "Game Station 15 Disc Edition with Console ...",
+        "rating": "120",
+        "price": "5,299.99",
+        "star_rating" : 5,
+        "discount" : "20",
+        "pre_price": "6,358.00"
+    }
+]

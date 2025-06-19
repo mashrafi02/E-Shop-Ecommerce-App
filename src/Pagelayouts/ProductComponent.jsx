@@ -34,7 +34,6 @@ const ProductComponent = ({maxWidth="284px",
           
   const hoverBorder = 'hover:border-[#BFBFBF]';
   const hoverStar = 'group-hover:!text-[#FED550]';
-  const hoverbg = `hover:!bg-[${bgHover}]`;
   let stockWidth = Math.floor((parseInt(availability)/parseInt(totalProduct)) * 100)
   let stockWidthColor = stockWidth > 90? "#FF624C" : "#303030";
   
@@ -46,7 +45,7 @@ const ProductComponent = ({maxWidth="284px",
     ratingNumberArray = new Array(starRating).fill("");
   }
   return (
-    <div className={`border border-transparent ${border && hoverBorder} ${bgHover && hoverbg} rounded-[10px] cursor-pointer duration-300 group`}
+    <div className={`border border-transparent ${border && hoverBorder} ${bgHover && "hover-bg"} rounded-[10px] cursor-pointer duration-300 group`}
           style={{
             maxWidth:maxWidth,
             padding:p,

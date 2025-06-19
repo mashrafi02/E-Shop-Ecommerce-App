@@ -1,15 +1,14 @@
 import React from 'react';
 import Container from "../Pagelayouts/Container";
 import FilterProducts from '../components/ProductList_Components/FilterProducts';
+import Pagination from '../components/ProductList_Components/Pagination';
 
 const ProductList = () => {
   return (
       <Container>
-          <div className='flex justify-between pt-[32px] mb-[80px]'>
+          <div className='flex justify-between items-start gap-x-[27px] pt-[32px] mb-[80px]'>
               <FilterProducts />
-              <div>
-                  <h3>PAgination</h3>
-              </div>
+              <Pagination />
           </div>
       </Container>
   )
