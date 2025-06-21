@@ -36,9 +36,6 @@ const ProductComponent = ({maxWidth="284px",
   const hoverStar = 'group-hover:!text-[#FED550]';
   let stockWidth = Math.floor((parseInt(availability)/parseInt(totalProduct)) * 100)
   let stockWidthColor = stockWidth > 90? "#FF624C" : "#303030";
-  
-
-  console.log(stockWidth)
 
   let ratingNumberArray;
   if(starRating){

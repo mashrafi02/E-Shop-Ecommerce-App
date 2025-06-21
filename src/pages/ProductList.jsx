@@ -6,7 +6,7 @@ import Pagination from '../components/ProductList_Components/Pagination';
 const ProductList = () => {
   return (
       <Container>
-          <div className='flex justify-between items-start gap-x-[27px] pt-[32px] mb-[80px]'>
+          <div className='flex justify-between items-start gap-x-[25px] pt-[32px] mb-[80px]'>
               <FilterProducts />
               <Pagination />
           </div>

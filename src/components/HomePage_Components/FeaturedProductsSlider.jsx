@@ -59,6 +59,8 @@ const FeaturedProductsSlider = () => {
   var settings = {
     dots: false,
     infinite: true,
+    centerMode: true,
+    centerPadding: "0px",
     autoplay: true,
     speed: 350,
     autoplaySpeed: 2000,

@@ -14,19 +14,19 @@ function SampleNextArrow(props) {
     <div
       className={className}
       style={{
-        width:"40px",
-        height:"40px",
+        width:"72px",
+        height:"72px",
         border:"1px solid #303030",
         borderRadius:"50%",
         display:"flex",
         justifyContent:"center",
         alignItems:"center",
-        right:0,
+        right:"-20px",
         zIndex:10
       }}
       onClick={onClick}
     >
-      <SlArrowRight className='text-[12px] text-[#303030] absolute left-1/2 -translate-x-1/2'/>
+      <SlArrowRight className='text-[20px] text-[#303030] absolute left-1/2 -translate-x-1/2'/>
     </div>
   );
 }

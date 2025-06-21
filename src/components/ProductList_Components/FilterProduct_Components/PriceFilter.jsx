@@ -1,5 +1,6 @@
 import { useState, useRef, useEffect } from "react";
 import { IoChevronDown } from "react-icons/io5";
+import { toast, Bounce } from 'react-toastify';
 
 const PriceFilter = () => {
     const [isOpenPrice, setIsOpenPrice] = useState(true);
@@ -40,48 +41,82 @@ const PriceFilter = () => {
         style={{maxHeight:maxHeightPrice,
                 paddingBottom: isOpenPrice? "8px" : "0px"
         }}>
-            <div className="price-display flex justify-between items-center mb-[37px]">
+            <div className="price-display flex justify-between items-center gap-x-[11px] mb-[37px]">
                 <span className='w-[124px] h-[74px] flex justify-center items-center border border-[#7A7A7A] rounded-[10px]'>
-                    $ <input type="text"
+                    $ <input type="number"
+                            className="no-spinner bg-transparent border-none focus:outline-none w-[40%] ml-[4px] text-center"
+                            min={min}
+                            max={max}
+                            step={step}
                             value={minVal}
-                            className='bg-transparent border-none focus:outline-none w-[40%] ml-[4px] text-center'
-                            onChange={(e) => 
-                            {   
+                            onChange={(e) => {
                                 const value = e.target.value;
-
                                 if(isNaN(value)){
-                                    return;
-                                }
-                                else if(value === ""){
-                                    setMinVal(0)
+                                    return
                                 }
                                 else{
-                                    if(value < maxVal){
-                                        setMinVal(parseInt(e.target.value))
+                                    const parseValue = parseInt(value);
+                                    if(parseValue > maxVal){
+                                        setMinVal(maxVal - 50);
+                                        toast.error('Minimum price cannot exceed Maximum price!!!', {
+                                            position: "top-center",
+                                            autoClose: 5000,
+                                            hideProgressBar: false,
+                                            closeOnClick: false,
+                                            pauseOnHover: true,
+                                            draggable: true,
+                                            progress: undefined,
+                                            theme: "light",
+                                            transition: Bounce,
+                                            });
+                                        return
                                     }
-                                }
-                            }
-                            } />
+                                    else if(parseValue <= minVal){
+                                        setMinVal(min);
+                                        return
+                                    }
+                                    const newMinValu = Math.min(parseValue, maxVal - step);
+                                    setMinVal(newMinValu);
+                                } 
+                             }} />
                     </span>
                 <span className='w-[124px] h-[74px] flex justify-center items-center border border-[#7A7A7A] rounded-[10px]'>
-                    $ <input type="text"
+                    $ <input type="number"
+                            className="no-spinner bg-transparent border-none focus:outline-none w-[40%] ml-[4px] text-center"
+                            min={min}
+                            max={max}
+                            step={step}
                             value={maxVal}
-                            className='bg-transparent border-none focus:outline-none w-[40%] ml-[4px] text-center'
-                            onChange={(e) => 
-                            {   
+                            onChange={(e) => {
                                 const value = e.target.value;
-
                                 if(isNaN(value)){
-                                    return;
+                                    return
                                 }
-                                else if(value === ""){
-                                    setMaxVal(minVal + 10);
-                                    return;
-                                }else{
-                                    setMaxVal(value)
-                                }            
-                            }
-                            } />
+                                else{
+                                    const parseValue = parseInt(value);
+                                    if(parseValue < minVal){
+                                        setMaxVal(minVal + 50);
+                                        toast.error('Maximum price cannot be less than Minimum price!!!', {
+                                            position: "top-center",
+                                            autoClose: 5000,
+                                            hideProgressBar: false,
+                                            closeOnClick: false,
+                                            pauseOnHover: true,
+                                            draggable: true,
+                                            progress: undefined,
+                                            theme: "light",
+                                            transition: Bounce,
+                                            });
+                                        return
+                                    }
+                                    else if(parseValue > maxVal){
+                                        setMaxVal(max);
+                                        return
+                                    }
+                                    const newMaxValu = Math.min(parseValue, minVal + step);
+                                    setMaxVal(newMaxValu);
+                                } 
+                             }} />
                     </span>
             </div>
             <div className="price-range">

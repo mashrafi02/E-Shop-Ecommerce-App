@@ -8,6 +8,11 @@
   left: 2.5px !important;
 }
 
+.featured-products .slick-current{
+  border: 1px solid rgba(48, 48, 48,0.25);
+  border-radius: 10px;
+}
+
 .spring-sale .slick-list{
   margin: 0 12px !important;
 }
@@ -45,7 +50,7 @@ input[type=checkbox] + label::before{
   cursor: pointer;
   position: absolute;
   top: 2px;
-  left: -23px;
+  left: -22px;
   width: 16px;
   height: 16px;
   border: 1px solid #303030;
@@ -58,7 +63,7 @@ input[type=checkbox]:checked + label::before{
   cursor: pointer;
   position: absolute;
   top: 2px;
-  left: -23px;
+  left: -22px;
   width: 16px;
   height: 16px;
   border: transparent;
@@ -73,7 +78,7 @@ input[type=checkbox]:checked + label::after{
   width: 8px;
   height: 8px;
   top: 6px;
-  left: -19px;
+  left: -20px;
   background-image: url("/images/check.svg");
   background-size: contain;
   background-repeat: no-repeat;
@@ -102,4 +107,14 @@ input[type="range"]::-moz-range-thumb {
 
 .hover-bg:hover{
   background: white !important;
+}
+
+.no-spinner::-webkit-outer-spin-button,
+.no-spinner::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.no-spinner {
+  -moz-appearance: textfield;
 }
