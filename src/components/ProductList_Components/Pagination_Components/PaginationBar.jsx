@@ -4,23 +4,33 @@ import { SlArrowRight } from "react-icons/sl";
 const PaginationBar = ({totalItems, currentPage, itemsPerPage, onPageChange}) => {
 
     const totalPages = Math.ceil(totalItems/itemsPerPage);
-    const maxPagesTOShow = 10;
-    const pagesToShowBefore = 3;
-    const pagesToShowAfter = 3;
-
-    let startPage = Math.max(1, currentPage - pagesToShowBefore);
-    let endPage = Math.min(totalPages, currentPage + pagesToShowAfter)
-
-    if(endPage - startPage + 1 < maxPagesTOShow){
-        if(startPage > 1){
-            startPage = Math.max(1, endPage - maxPagesTOShow +1)
-        }
-        endPage = Math.min(totalPages, startPage + maxPagesTOShow -1)
-    }
-
+    const maxPagesTOShow = 5;
     const page_numbers = [];
-    for (let i = startPage; i <= endPage; i++){
-        page_numbers.push(i);
+
+    if(totalPages <= maxPagesTOShow){
+        for(let i= 1; i <= totalPages; i++){
+            page_numbers.push(i);
+        }
+    }
+    else{
+        const startPages = [1];
+        const endPages = [totalPages];
+        const middlePages = [currentPage -1, currentPage, currentPage +1].filter(
+            p => p > 1 && p < totalPages 
+        )
+
+        const uniquePages = Array.from(new Set([...startPages, ...middlePages, ...endPages])).sort((a,b) => a-b);
+        for (let i = 0; i < uniquePages.length; i++) {
+            const current = uniquePages[i];
+            const prev = uniquePages[i - 1];
+        
+            if (i > 0 && current - prev > 1) {
+                page_numbers.push("...");
+            }
+        
+            page_numbers.push(current);
+        }
+        console.log(page_numbers)
     }
 
   return (
