@@ -10,7 +10,7 @@ const ProductQuantity = () => {
 
   return (
     <div className='flex'>
-        <div className='flex items-center mr-[80px]'>
+        <div className='flex items-center mr-[84px]'>
             <span className='inline-block p-4 rounded-full hover:bg-[#F4F4F4] cursor-pointer'
                   onClick={() => {
                         if(productQuantity > 1){
@@ -19,7 +19,7 @@ const ProductQuantity = () => {
                   }}>
                 <FiMinus className='text-2xl text-[#000]'/>
             </span>
-            <input type="number" value={productQuantity} readOnly className='w-[210px] py-[5px] bg-transparent border-none focus:outline-none text-center text-4xl text-[#303030] font-[Poppins] font-semibold leading-[46px]'/>
+            <input type="number" value={productQuantity} readOnly className='w-[180px] py-[5px] bg-transparent border-none focus:outline-none text-center text-4xl text-[#303030] font-[Poppins] font-semibold leading-[46px]'/>
             <span className='inline-block p-4 rounded-full hover:bg-[#F4F4F4] cursor-pointer'
                   onClick={() => {
                         setProductQuantity(prev => prev + 1)
