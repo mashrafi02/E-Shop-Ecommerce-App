@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import Container from "../Pagelayouts/Container";
 import AsNavFor from '../components/ProductDetails_Components/AsNavFor';
 import Security from "../assets/svg_icons/Security";
@@ -6,8 +6,15 @@ import DeliveryIcon from "../assets/svg_icons/DeliveryIcon";
 import Transparent from "../assets/svg_icons/Transparent";
 import ProductInfo from '../components/ProductDetails_Components/ProductInfo';
 import ProductQuantity from '../components/ProductDetails_Components/ProductQuantity';
+import ProductDescription from '../components/ProductDetails_Components/ProductDescription';
+import ProductReviews from '../components/ProductDetails_Components/ProductReviews';
+import RelatedProducts from '../components/ProductDetails_Components/RelatedProducts';
 
 const ProductDetails = () => {
+
+    const [isOpenDescription, setIsOpenDescription] = useState(true);
+    const [isOpenReviews, setIsOpenReviews] = useState(false);
+
   return (
     <Container>
         <div className="product-path flex items-center gap-x-10 mb-12">
@@ -47,6 +54,41 @@ const ProductDetails = () => {
                 <ProductInfo />
                 <ProductQuantity />
             </div>
+        </div>
+        <div className='w-full pb-20 mb-[64px] border-b border-b-[#BFBFBF]'>
+            <div className='flex gap-x-12 items-start mb-12'>
+                <p className='text-[#CBCBCB] text-2xl font-[Poppins] font-semibold leading-[30px] pb-2 border-b-[4px] border-b-[#FFF] duration-150 cursor-pointer'
+                   style={{
+                        color: isOpenDescription && "#303030",
+                        borderBottom: isOpenDescription && "4px solid #FF624C"
+                   }}
+                   onClick={() => {
+                                setIsOpenDescription(true);
+                                setIsOpenReviews(false)
+                   }}>
+                    Description
+                </p>
+                <p className='text-[#CBCBCB] text-2xl font-[Poppins] font-semibold leading-[30px] pb-2 border-b-[4px] border-b-[#FFF] duration-150 cursor-pointer'
+                   style={{
+                        color: isOpenReviews && "#303030",
+                        borderBottom: isOpenReviews && "4px solid #FF624C"
+                   }}
+                   onClick={() => {
+                                setIsOpenDescription(false);
+                                setIsOpenReviews(true)
+                   }}>
+                    Reviews
+                </p>
+            </div>
+            <div style={{display: isOpenDescription? "block" : "none"}}>
+                <ProductDescription />
+            </div>
+            <div style={{display: isOpenReviews? "block" : "none"}}>
+                <ProductReviews />
+            </div>
+        </div>
+        <div className='mb-[64px]'>
+            <RelatedProducts />
         </div>
     </Container>
   )
