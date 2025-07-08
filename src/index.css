@@ -11,6 +11,8 @@
 .featured-products .slick-current{
   border: 1px solid rgba(48, 48, 48,0.25);
   border-radius: 10px;
+  width: 284px !important;
+  margin-right: 4px !important;
 }
 
 .spring-sale .slick-list{
@@ -104,7 +106,6 @@ input[type="range"]::-moz-range-thumb {
   cursor: pointer;
 }
 
-
 .hover-bg:hover{
   background: white !important;
 }
@@ -115,6 +116,6 @@ input[type="range"]::-moz-range-thumb {
   margin: 0;
 }
 
-.no-spinner {
-  -moz-appearance: textfield;
+.product-slider .slick-prev, .product-slider .slick-next{
+  display: none !important;
 }
