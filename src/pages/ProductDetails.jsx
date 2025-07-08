@@ -4,6 +4,8 @@ import AsNavFor from '../components/ProductDetails_Components/AsNavFor';
 import Security from "../assets/svg_icons/Security";
 import DeliveryIcon from "../assets/svg_icons/DeliveryIcon";
 import Transparent from "../assets/svg_icons/Transparent";
+import ProductInfo from '../components/ProductDetails_Components/ProductInfo';
+import ProductQuantity from '../components/ProductDetails_Components/ProductQuantity';
 
 const ProductDetails = () => {
   return (
@@ -42,7 +44,8 @@ const ProductDetails = () => {
                 </div>
             </div>
             <div className="product-info">
-              
+                <ProductInfo />
+                <ProductQuantity />
             </div>
         </div>
     </Container>
