@@ -77,7 +77,7 @@ const HighlightedLinks = () => {
             </div>
         </div>
     </section>
-    <section className='flex justify-between border-t border-[#BFBFBF] mb-[80px] pt-2 font-[Montserrat] text-[#FFF] text-[14px] font-normal leading-5 opacity-75'>
+    <section className='flex justify-between border-t border-[#BFBFBF] pt-2 font-[Montserrat] text-[#FFF] text-[14px] font-normal leading-5 opacity-75'>
         <span>Copyright © 2023 E-Shop. All Rights Reserved.</span>
         <span>
             <Link to="#" className='mr-2'>Privacy Policy</Link>  |  
