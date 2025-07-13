@@ -50,7 +50,7 @@ const SpringSale = () => {
             <div className='flex gap-x-[127px] items-center'>
                 <div className="timer">
                     <h2 className='max-w-[325px] font-[Poppins] font-bold text-[56px] text-[#303030] leading-[68px] mb-10'>Spring Sale</h2>
-                    <Timer OfferLastDate="June 27, 2025 12:00 PM +06"/>
+                    <Timer OfferLastDate="July 15, 2025 12:00 PM +06"/>
                     <div className='mt-[72px]'>
                         <Button text="Shop Now" />
                     </div>
