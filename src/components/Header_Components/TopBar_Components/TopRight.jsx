@@ -37,8 +37,8 @@ const TopRight = () => {
     },[isOpen,isOpen2])
 
 return (
-    <section className="flex items-center gap-x-[49px] text-[#303030] font-[Montserrat] text-sm font-normal leading-5">
-        <div className="currency">
+    <section className="flex items-center gap-x-[51px] sm:gap-x-[49px] text-[#303030] font-[Montserrat] text-sm font-normal leading-5 px-2 sm:px-0 ">
+        <div className="currency relative z-50">
 
             {/* for backend  integration */}
 
@@ -86,7 +86,7 @@ return (
 
 
         </div>
-        <div className="language w-[112px] relative after:content-[''] after:absolute after:w-px after:h-8 after:bg-[#BFBFBF] after:right-[-18px] after:top-1/2 after:-translate-y-1/2 before:content-[''] before:absolute before:w-px before:h-8 before:bg-[#BFBFBF] before:left-[-24px] before:top-1/2 before:-translate-y-1/2">
+        <div className="language w-[112px] relative after:content-[''] after:absolute after:w-px after:h-5 sm:after:h-8 after:bg-[#BFBFBF] after:right-[-16px] sm:after:right-[-18px] after:top-1/2 after:-translate-y-1/2 before:content-[''] before:absolute before:w-px before:h-5 sm:before:h-8 before:bg-[#BFBFBF] before:left-[-26px] sm:before:left-[-24px] before:top-1/2 before:-translate-y-1/2 z-50">
 
             {/* for backend  integration */}
 
