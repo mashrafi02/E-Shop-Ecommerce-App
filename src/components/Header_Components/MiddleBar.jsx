@@ -4,16 +4,20 @@ import CartIcon from "../../assets/svg_icons/CartIcon"
 import { LiaUserSolid } from "react-icons/lia";
 import { FaBars } from "react-icons/fa";
 import { useState } from "react";
+import { useDispatch } from "react-redux";
+import { showSidebar } from "../../slices/sidebarSlice";
 
 const MiddleBar = () => {
   const [search, setSearch] = useState("");
   const [isOpenSearch, setIsOpenSearch] = useState(false);
+  const dispatch = useDispatch();
+
   console.log(isOpenSearch);
   return (
     <Container>
         <section className="py-4 sm:py-8 flex items-center justify-between font-[Montserrat] px-2 sm:px-0">
             <div className="logo flex items-center gap-x-2 sm:block">
-                <FaBars className="sm:hidden text-2xl"/>
+                <FaBars className="sm:hidden text-2xl" onClick={()=> dispatch(showSidebar())}/>
                 <img src="/images/logo.png" alt="logo" className="w-[70%] sm:w-full"/>
             </div>
             <div className="flex items-center">
