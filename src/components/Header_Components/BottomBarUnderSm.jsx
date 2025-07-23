@@ -46,7 +46,7 @@ const BottomBarUnderSm = () => {
     },[isOpenAllcategory, isOpenProducts])
 
   return (
-    <div ref={sidebarRef} className='sm:hidden inline-block h-screen fixed z-50 top-0 bg-[#FF624C] transition-[max-width] duration-100'
+    <div ref={sidebarRef} className='sm:hidden inline-block min-h-screen fixed z-50 top-0 bg-[#FF624C] transition-[max-width] duration-100'
          style={{
                  maxWidth:maxWidth,
                  overflow:isOpenSidebar?"visible":"hidden"

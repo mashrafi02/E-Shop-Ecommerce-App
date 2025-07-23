@@ -39,16 +39,16 @@ const Timer = ({ OfferLastDate = undefined }) => {
   }, [OfferLastDate]);
 
   return (
-    <div className='flex gap-x-[58px]'>
-        <span className='flex flex-col justify-center items-center font-[Poppins] font-semibold text-[#FF624C] text-4xl leading-[46px] relative after:absolute after:content-[":"] after:text-[36px] after:text-[#FF624C] after:font-semibold after:leading-6 after:top-2 after:-right-8'>
+    <div className='flex gap-x-[40px] sm:gap-x-[58px]'>
+        <span className='flex flex-col justify-center items-center font-[Poppins] font-semibold text-[#FF624C] text-4xl leading-[46px] relative after:absolute after:content-[":"] after:text-[36px] after:text-[#FF624C] after:font-semibold after:leading-6 after:top-2 after:-right-6 sm:after:-right-8'>
             {leftTime.day}
             <span className='font-[Montserrat] font-normal text-base text-[#303030] leading-6'>Days</span>
         </span> 
-        <span className='flex flex-col justify-center items-center font-[Poppins] font-semibold text-[#FF624C] text-4xl leading-[46px] relative after:absolute after:content-[":"] after:text-[36px] after:text-[#FF624C] after:font-semibold after:leading-6 after:top-2 after:-right-8'>
+        <span className='flex flex-col justify-center items-center font-[Poppins] font-semibold text-[#FF624C] text-4xl leading-[46px] relative after:absolute after:content-[":"] after:text-[36px] after:text-[#FF624C] after:font-semibold after:leading-6 after:top-2 after:-right-7 sm:after:-right-8'>
             {leftTime.hour}
             <span className='font-[Montserrat] font-normal text-base text-[#303030] leading-6'>Hours</span>
         </span> 
-        <span className='flex flex-col justify-center items-center font-[Poppins] font-semibold text-[#FF624C] text-4xl leading-[46px] relative after:absolute after:content-[":"] after:text-[36px] after:text-[#FF624C] after:font-semibold after:leading-6 after:top-2 after:-right-8'>
+        <span className='flex flex-col justify-center items-center font-[Poppins] font-semibold text-[#FF624C] text-4xl leading-[46px] relative after:absolute after:content-[":"] after:text-[36px] after:text-[#FF624C] after:font-semibold after:leading-6 after:top-2 after:-right-6 sm:after:-right-8'>
             {leftTime.minute}
             <span className='font-[Montserrat] font-normal text-base text-[#303030] leading-6'>Minutes</span>
         </span> 

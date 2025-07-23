@@ -12,7 +12,6 @@ const MiddleBar = () => {
   const [isOpenSearch, setIsOpenSearch] = useState(false);
   const dispatch = useDispatch();
 
-  console.log(isOpenSearch);
   return (
     <Container>
         <section className="py-4 sm:py-8 flex items-center justify-between font-[Montserrat] px-2 sm:px-0">
@@ -32,10 +31,9 @@ const MiddleBar = () => {
                         />
                     <GoSearch className="absolute right-6 top-5 text-lg"/>
                 </form>
-                <div className="search sm:hidden mr-4 relative after:content-[''] after:absolute after:w-[1px] after:h-8 after:bg-[#BFBFBF] after:right-[-10px] after:top-1/2 after:-translate-y-1/2 -z-1">
-                    <div className="search-icon relative z-50" onClick={() => setIsOpenSearch(prev => !prev)}>
+                <div className="search-icon relative z-50 sm:hidden mr-5 after:absolute after:content-[''] after:w-[1px] after:h-8 after:top-[-4px] after:right-[-10px] after:bg-[#BFBFBF] " 
+                     onClick={() => setIsOpenSearch(prev => !prev)}>
                         <GoSearch className="text-2xl"/>
-                    </div>
                 </div>
                 <div className="cart relative sm:pl-[52px] mr-[16px] sm:mr-[90px] after:content-[''] after:absolute after:w-[1px] after:h-8 after:bg-[#BFBFBF] after:right-[-12px] sm:after:right-[-45px] after:top-1/2 after:-translate-y-1/2 -z-1">
                     <div className="cart-icon sm:absolute sm:left-0 sm:top-2">

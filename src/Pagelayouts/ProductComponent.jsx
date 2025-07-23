@@ -42,9 +42,8 @@ const ProductComponent = ({maxWidth="284px",
     ratingNumberArray = new Array(starRating).fill("");
   }
   return (
-    <div className={`border border-transparent ${border && hoverBorder} ${bgHover && "hover-bg"} rounded-[10px] cursor-pointer duration-300 group`}
+    <div className={`border w-full border-[#BFBFBF] sm:border-transparent ${border && hoverBorder} ${bgHover && "hover-bg"} rounded-[10px] cursor-pointer duration-300 group`}
           style={{
-            maxWidth:maxWidth,
             padding:p,
             background:bg,
           }}>
@@ -52,11 +51,11 @@ const ProductComponent = ({maxWidth="284px",
             <img className='w-full' src={image} alt="item-image" />
             {
               discount &&
-                  <div className="discount absolute z-999" style={{top:disTop, right:disRight}}>
+                  <div className="discount absolute z-40" style={{top:disTop, right:disRight}}>
                       <DiscountComponent width={diswidth} height={disheight} px={dispx} py={dispy} radius={disradius} text={discount} fontSize={disFontSize}/>
                   </div>
             }
-            <div className="hover-options scale-0 group-hover:scale-100 duration-300 flex justify-center gap-x-[18px] items-center absolute w-full top-[158px]">
+            <div className="hover-options sm:scale-0 group-hover:scale-100 duration-300 flex justify-center gap-x-[18px] items-center absolute w-full top-[158px]">
                 <div className="w-[50px] h-[50px] text-[#FF624C] rounded-full border border-[#FF624C] bg-white flex justify-center items-center hover:text-white hover:bg-[#FF624C] duration-200">
                     <CartIcon2 />
                 </div>
@@ -70,7 +69,7 @@ const ProductComponent = ({maxWidth="284px",
         </div>
         <h4 className="text-[14px] text-[#303030] leading-5 font-[Montserrat] font-normal tracking-[5px] mb-4">{title}</h4>
         <p className="text-[#303030] font-[Poppins] text-xl font-semibold leading-[30px] mb-2 group-hover:text-[#FF624C] group-hover:underline duration-200">{text}</p>
-        <div className={`star-rating flex items-center mb-5 ${starHover && hoverStar}`} style={{color:starColor}}>
+        <div className={`star-rating flex items-center mb-5 !text-[#FED550] sm:!text-white ${starHover && hoverStar}`} style={{color:starColor}}>
             {
               starRating &&
                   ratingNumberArray.map((_,index) => <StarIcon key={index} />)

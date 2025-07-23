@@ -13,7 +13,7 @@ function SampleNextArrow(props) {
   const { className, onClick } = props;
   return (
     <div
-      className={className}
+      className={`${className} !bg-white sm:bg-transparent`}
       style={{
         width:"40px",
         height:"40px",
@@ -36,7 +36,7 @@ function SamplePrevArrow(props) {
   const { className, onClick } = props;
   return (
     <div
-      className={className}
+      className={`${className} !bg-white sm:bg-transparent`}
       style={{
         width:"40px",
         height:"40px",
@@ -67,12 +67,20 @@ const FeaturedProductsSlider = () => {
     slidesToShow: 5,
     slidesToScroll: 1,
     nextArrow: <SampleNextArrow />,
-    prevArrow: <SamplePrevArrow />
+    prevArrow: <SamplePrevArrow />,
+    responsive: [
+      {
+        breakpoint: 415,
+        settings: {
+          slidesToShow: 1,
+          centerMode:false,
+        }
+      }]
   };
   return (
     <Container>
-        <section className='mb-[80px]'>
-            <div className="mb-12 flex justify-between">
+        <section className='mb-9 sm:mb-[80px] px-2 sm:px-0'>
+            <div className="sm:mb-12 mb-9 sm:flex sm:justify-between">
                 <h2 className='font-semibold font-[Poppins] text-[#303030] text-4xl leading-[46px]'>Featured Products</h2>
                 <Link className='self-end' to="/product-lists">
                     <span className='flex gap-x-4 items-center font-[Montserrat] text-base text-[#FF624C] font-bold leading-6'>
@@ -82,16 +90,36 @@ const FeaturedProductsSlider = () => {
             </div>
             <div className='min-w-0 featured-products'>
                 <Slider {...settings}>
-                    <ProductComponent image={"/images/watch.png"} title={"PHONE"} text={"JPhone 13 High Quality Value Buy Best Cam..."} rating={"50"} starRating={5} price={"999.00"}/>
-                    <ProductComponent image={"/images/watch.png"} title={"AUDIO"} text={"WH-1000XM4 Wireless Headphones High Qu..."} rating={"120"} starRating={5} price={"59.00"} preprice={"118.00"} discount={"50"}/>
-                    <ProductComponent image={"/images/watch.png"} title={"LAPTOP"} text={"S21 Laptop Ultra HD Screen Feature 2023 ..."} rating={"100"} starRating={5} price={"1199.00"}/>
-                    <ProductComponent image={"/images/watch.png"} title={"CAMERA"} text={"Mini Polaroid Camera for Girls with Flash Li..."} rating={"70"} starRating={5} price={"79.00"}/>
-                    <ProductComponent image={"/images/watch.png"} title={"TELEVISION"} text={"AG OLED65CXPUA 4K Smart OLED TV New ..."} rating={"20"} starRating={5} price={"2799.00"}/>
-                    <ProductComponent image={"/images/watch.png"} title={"PHONE"} text={"JPhone 13 High Quality Value Buy Best Cam..."} rating={"50"} starRating={5} price={"999.00"}/>
-                    <ProductComponent image={"/images/watch.png"} title={"AUDIO"} text={"WH-1000XM4 Wireless Headphones High Qu..."} rating={"120"} starRating={5} price={"59.00"}/>
-                    <ProductComponent image={"/images/watch.png"} title={"LAPTOP"} text={"S21 Laptop Ultra HD Screen Feature 2023 ..."} rating={"100"} starRating={5} price={"1199.00"}/>
-                    <ProductComponent image={"/images/watch.png"} title={"CAMERA"} text={"Mini Polaroid Camera for Girls with Flash Li..."} rating={"70"} starRating={5} price={"79.00"} preprice={"118.00"} discount={"50"}/>
-                    <ProductComponent image={"/images/watch.png"} title={"TELEVISION"} text={"AG OLED65CXPUA 4K Smart OLED TV New ..."} rating={"20"} starRating={5} price={"2799.00"}/>
+                    <div className='max-w-[320px] sm:max-w-[284px]'>
+                        <ProductComponent image={"/images/watch.png"} title={"PHONE"} text={"JPhone 13 High Quality Value Buy Best Cam..."} rating={"50"} starRating={5} price={"999.00"}/>
+                    </div>
+                    <div className='max-w-[320px] sm:max-w-[284px]'>
+                        <ProductComponent image={"/images/watch.png"} title={"AUDIO"} text={"WH-1000XM4 Wireless Headphones High Qu..."} rating={"120"} starRating={5} price={"59.00"} preprice={"118.00"} discount={"50"}/>
+                    </div>
+                    <div className='max-w-[320px] sm:max-w-[284px]'>
+                        <ProductComponent image={"/images/watch.png"} title={"LAPTOP"} text={"S21 Laptop Ultra HD Screen Feature 2023 ..."} rating={"100"} starRating={5} price={"1199.00"}/>
+                    </div>
+                    <div className='max-w-[320px] sm:max-w-[284px]'>
+                        <ProductComponent image={"/images/watch.png"} title={"CAMERA"} text={"Mini Polaroid Camera for Girls with Flash Li..."} rating={"70"} starRating={5} price={"79.00"}/>
+                    </div>
+                    <div className='max-w-[320px] sm:max-w-[284px]'>
+                        <ProductComponent image={"/images/watch.png"} title={"TELEVISION"} text={"AG OLED65CXPUA 4K Smart OLED TV New ..."} rating={"20"} starRating={5} price={"2799.00"}/>
+                    </div>
+                    <div className='max-w-[320px] sm:max-w-[284px]'>
+                        <ProductComponent image={"/images/watch.png"} title={"PHONE"} text={"JPhone 13 High Quality Value Buy Best Cam..."} rating={"50"} starRating={5} price={"999.00"}/>
+                    </div>
+                    <div className='max-w-[320px] sm:max-w-[284px]'>
+                        <ProductComponent image={"/images/watch.png"} title={"AUDIO"} text={"WH-1000XM4 Wireless Headphones High Qu..."} rating={"120"} starRating={5} price={"59.00"}/>
+                    </div>
+                    <div className='max-w-[320px] sm:max-w-[284px]'>
+                        <ProductComponent image={"/images/watch.png"} title={"LAPTOP"} text={"S21 Laptop Ultra HD Screen Feature 2023 ..."} rating={"100"} starRating={5} price={"1199.00"}/>
+                    </div>
+                    <div className='max-w-[320px] sm:max-w-[284px]'>
+                        <ProductComponent image={"/images/watch.png"} title={"CAMERA"} text={"Mini Polaroid Camera for Girls with Flash Li..."} rating={"70"} starRating={5} price={"79.00"} preprice={"118.00"} discount={"50"}/>
+                    </div>
+                    <div className='max-w-[320px] sm:max-w-[284px]'>
+                        <ProductComponent image={"/images/watch.png"} title={"TELEVISION"} text={"AG OLED65CXPUA 4K Smart OLED TV New ..."} rating={"20"} starRating={5} price={"2799.00"}/>
+                    </div>
                 </Slider>
             </div>
         </section>

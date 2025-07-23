@@ -4,6 +4,12 @@
   margin: 0 40px !important;
 }
 
+@media (max-width: 415px){
+  .featured-products .slick-list{
+    margin: 0 16px !important;
+  }
+}
+
 .featured-products .slick-track {
   left: 2.5px !important;
 }
@@ -15,8 +21,21 @@
   margin-right: 4px !important;
 }
 
+@media (max-width: 415px){
+  .featured-products .slick-current{
+    width: 321px !important;
+  }
+}
+
 .spring-sale .slick-list{
   margin: 0 12px !important;
+}
+
+@media (max-width: 415px){
+  .spring-sale .slick-list{
+    margin: 0 !important;
+    left: -3.5px !important;
+  }
 }
 
 .spring-sale .slick-track {
