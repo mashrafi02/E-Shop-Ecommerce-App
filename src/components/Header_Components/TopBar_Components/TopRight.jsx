@@ -37,7 +37,7 @@ const TopRight = () => {
     },[isOpen,isOpen2])
 
 return (
-    <section className="flex items-center gap-x-[51px] sm:gap-x-[49px] text-[#303030] font-[Montserrat] text-sm font-normal leading-5 px-2 sm:px-0 ">
+    <section className="top-right flex justify-between items-center gap-x-[51px] sm:gap-x-[49px] text-[#303030] font-[Montserrat] text-sm font-normal leading-5 px-2 sm:px-0 ">
         <div className="currency relative z-50">
 
             {/* for backend  integration */}

@@ -70,7 +70,7 @@ const FeaturedProductsSlider = () => {
     prevArrow: <SamplePrevArrow />,
     responsive: [
       {
-        breakpoint: 415,
+        breakpoint: 430,
         settings: {
           slidesToShow: 1,
           centerMode:false,

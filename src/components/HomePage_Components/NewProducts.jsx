@@ -34,7 +34,7 @@ const NewProducts = () => {
         <section className='mb-8 sm:mb-[51px] px-2 sm:px-0'>
             <div className="mb-5 sm:mb-12 sm:flex sm:justify-between">
                 <h2 className='font-semibold font-[Poppins] text-[#303030] text-4xl leading-[46px] mb-4 sm:mb-0'>New Products</h2>
-                <div className='self-end flex gap-x-4 items-center font-[Montserrat] text-xs sm:text-base leading-6'>
+                <div className='self-end flex gap-x-4 items-center font-[Montserrat] text-base leading-6'>
                     <span className='text-[#303030] font-normal'>Sort by</span>
                     <div    ref={dropdownCategoryRef}
                             onClick={() => setIsOpen(prev => !prev)}

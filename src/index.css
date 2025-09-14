@@ -1,12 +1,67 @@
 @import "tailwindcss";
 
+
+/* ##################################### header responsive start ######################################## */
+@media (min-width: 412px){
+  .top-left .address::after{
+    right: -40px;
+  }
+
+  .top-right .language::after{
+    right: -30px;
+  }
+
+  .top-right .language::before{
+    left: -36px;
+  }
+}
+/* ##################################### header responsive end ######################################## */
+
+
+/* ######################################## feature produscts slider respnsive start ################################### */
 .featured-products .slick-list{
   margin: 0 40px !important;
 }
 
-@media (max-width: 415px){
+@media (min-width: 360px){
+  .featured-products .slick-list{
+    margin: 0 9px !important;
+  }
+}
+
+@media (min-width: 375px){
   .featured-products .slick-list{
     margin: 0 16px !important;
+  }
+}
+
+@media (min-width: 384px){
+  .featured-products .slick-list{
+    margin: 0 21px !important;
+  }
+}
+
+@media (min-width: 390px){
+  .featured-products .slick-list{
+    margin: 0 24px !important;
+  }
+}
+
+@media (min-width: 412px){
+  .featured-products .slick-list{
+    margin: 0 34px !important;
+  }
+}
+
+@media (min-width: 414px){
+  .featured-products .slick-list{
+    margin: 0 36px !important;
+  }
+}
+
+@media (width: 428px){
+  .featured-products .slick-list{
+    margin: 0 61px !important;
   }
 }
 
@@ -27,6 +82,11 @@
   }
 }
 
+/* ######################################## feature produscts slider respnsive end ################################### */
+
+
+/* ######################################## spring sale slider respnsive start ################################### */
+
 .spring-sale .slick-list{
   margin: 0 12px !important;
 }
@@ -42,6 +102,48 @@
   left: 12px !important;
 }
 
+@media (min-width: 360px){
+  .spring-sale .slick-track {
+    left: 4px !important;
+  }
+}
+
+@media (min-width: 375px){
+  .spring-sale .slick-track {
+    left: 12px !important;
+  }
+}
+
+@media (min-width: 384px){
+  .spring-sale .slick-track {
+    left: 16px !important;
+  }
+}
+
+@media (min-width: 390px){
+  .spring-sale .slick-track {
+    left: 20px !important;
+  }
+}
+
+@media (min-width: 412px){
+  .spring-sale .slick-track {
+    left: 30px !important;
+  }
+}
+
+@media (min-width: 414px){
+  .spring-sale .slick-track {
+    left: 32px !important;
+  }
+}
+
+@media (width: 428px){
+  .spring-sale .slick-track {
+    left: 22px !important;
+  }
+}
+
 .spring-sale .slick-next::before{
   color: transparent !important;
 }
@@ -49,6 +151,8 @@
 .spring-sale .slick-prev{
   display: none !important;
 }
+/* ######################################## spring sale slider respnsive end ################################### */
+
 
 input[type=checkbox]{
   appearance: none;

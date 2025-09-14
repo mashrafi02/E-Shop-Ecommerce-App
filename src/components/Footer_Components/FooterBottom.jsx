@@ -6,9 +6,9 @@ import { ImLocation } from "react-icons/im";
 const FooterBottom = () => {
   return (
     <>
-      <section className='flex justify-between font-[Montserrat] text-[#303030] text-base font-normal leading-6 mb-[80px]'>
-        <div className='mr-[167px]'>
-            <div className="logo mb-[158px]">
+      <section className='flex flex-col sm:flex-row px-2 sm:px-0 justify-between font-[Montserrat] text-[#303030] text-base font-normal leading-6 mb-[80px]'>
+        <div className='mb-10 sm:mb-10 sm:mr-[167px]'>
+            <div className="logo mb-10 sm:mb-[158px]">
                 <img src="/images/logo.png" alt="logo" />
             </div>
 
@@ -27,8 +27,8 @@ const FooterBottom = () => {
                 </li>
             </ul>
         </div>
-        <div className='flex'>
-            <div className='mr-[96px]'>
+        <div className='flex flex-col sm:flex-row gap-y-10 sm:gap-y-0'>
+            <div className='sm:mr-[96px]'>
                 <h4 className='font-[Poppins] text-xl font-semibold leading-[30px] mb-6'>Links</h4>
                 <ul className='flex flex-col gap-y-3'>
                     <li className='hover:text-[#FF624C] duration-200'><Link to="/product-lists">Products List</Link></li>
@@ -38,7 +38,7 @@ const FooterBottom = () => {
                     <li className='hover:text-[#FF624C] duration-200'><Link to="#">Tech Blog</Link></li>
                 </ul>
             </div>
-            <div className='mr-[96px]'>
+            <div className='sm:mr-[96px]'>
                 <h4 className='font-[Poppins] text-xl font-semibold leading-[30px] mb-6'>Supports</h4>
                 <ul className='flex flex-col gap-y-3'>
                     <li className='hover:text-[#FF624C] duration-200'><Link to="#">About Us</Link></li>
@@ -49,7 +49,7 @@ const FooterBottom = () => {
                     <li className='hover:text-[#FF624C] duration-200'><Link to="#">Careers</Link></li>
                 </ul>
             </div>
-            <div className='mr-[80px]'>
+            <div className='sm:mr-[80px]'>
                 <h4 className='font-[Poppins] text-xl font-semibold leading-[30px] mb-6'>Categories</h4>
                 <ul className='flex flex-col gap-y-3'>
                     <li className='hover:text-[#FF624C] duration-200'><Link to="#">Computers & Tablets</Link></li>
@@ -77,7 +77,7 @@ const FooterBottom = () => {
             </div>
         </div>
     </section>
-    <section className='flex justify-between border-t border-[#BFBFBF] mb-[80px] pt-2 font-[Montserrat] text-[#303030] text-[14px] font-normal leading-5 opacity-75'>
+    <section className='flex flex-wrap px-2 sm:px-0 justify-center sm:justify-between border-t border-[#BFBFBF] mb-8 sm:mb-[80px] pt-2 font-[Montserrat] text-[#303030] text-[14px] font-normal leading-5 opacity-75'>
         <span>Copyright © 2023 E-Shop. All Rights Reserved.</span>
         <span>
             <Link to="#" className='mr-2'>Privacy Policy</Link>  |  

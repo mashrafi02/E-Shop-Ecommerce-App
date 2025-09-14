@@ -7,7 +7,7 @@ const TopBar = () => {
   return (
     <section className='border-b border-[#BFBFBF]'>
         <Container>
-            <section className='flex flex-wrap sm:flex-nowrap justify-between items-center py-[10px] sm:py-[22px]'>
+            <section className='flex flex-col sm:flex-row sm:justify-between sm:items-center py-[10px] sm:py-[22px]'>
               <TopLeft />
               <TopRight />
             </section>

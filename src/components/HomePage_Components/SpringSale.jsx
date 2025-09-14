@@ -45,7 +45,7 @@ const SpringSale = () => {
         nextArrow: <SampleNextArrow />,
         responsive: [
           {
-            breakpoint: 415,
+            breakpoint: 430,
             settings: {
               slidesToShow: 1,
             }
